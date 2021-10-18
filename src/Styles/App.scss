@@ -268,6 +268,136 @@ body {
   background: $blue;
   color: $white;
 }
+.container__our__team {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container__our__team__heading {
+  font-size: 32px;
+  color: $textColor;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.container__our__team__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $blue;
+  background-image: url(../Assets/startup__card__img.png);
+  background-blend-mode: multiply;
+  border-radius: 20px;
+  width: 90%;
+  padding: 2em;
+}
+.container__our__team__card__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container__our__team__card__content__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+.container__our__team__card__content__right {
+  width: 60%;
+  color: $white;
+  font-weight: 16px;
+}
+.container__our__team__card__content__left__img {
+  width: 180px;
+  height: 180px;
+}
+.container__our__team__card__content__left__heading {
+  width: 50%;
+  color: $white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5;
+}
+.our__vision__container {
+  width: 100%;
+  position: relative;
+  height: fit-content;
+}
+.our__vision__img {
+  width: 100%;
+}
+.our__vision__container__wrapper {
+  background-color: rgba(211, 152, 68, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our__vision__container__wrapper__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.our__vision__container__wrapper__content__heading {
+  font-size: 32px;
+  color: $white;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.our__vision__container__wrapper__content__info {
+  font-size: 16px;
+  color: $white;
+  text-align: center;
+}
+.footer__container {
+  margin-top: 6em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__container__content__heading {
+  font-size: 22px;
+  color: $textColor;
+  width: 60%;
+  text-align: center;
+}
+.footer__container__content svg {
+  width: 220px;
+  height: 60px;
+  margin: 4em 0em;
+}
+.footer__container__content__copy__write {
+  font-size: 16px;
+  color: $textColor;
+}
+.footer__container__content__copy__write a {
+  text-decoration: none;
+  color: $textColor;
+  transition: 200ms;
+}
+.footer__container__content__copy__write a:hover {
+  color: $primary;
+}
+.footer__container__content__heading span {
+  font-weight: bold;
+}
 @media (max-width: 1250px) {
   .join__us__img {
     height: 600px;
@@ -280,6 +410,19 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .our__vision__container {
+    margin-top: 2em;
+  }
+  .our__vision__container__wrapper__content__heading {
+    width: 100%;
+    font-size: 30px;
+  }
+  .our__vision__container__wrapper__content__info {
+    width: 100%;
+  }
+  .our__vision__img {
+    height: 400px;
+  }
   .container__startups__card {
     display: flex;
     flex-direction: column;
@@ -310,6 +453,20 @@ body {
   }
   .join__us__container__content__cta {
     max-width: 25%;
+  }
+  .container__our__team__card__content {
+    flex-direction: column;
+  }
+  .container__our__team__card__content__left__heading {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .container__our__team__card__content__right {
+    font-size: 16px;
+    width: 100%;
+  }
+  .milestone__container {
+    margin-top: 14em;
   }
 }
 @media (max-width: 650px) {
