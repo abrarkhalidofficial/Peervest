@@ -3,10 +3,24 @@ import main__background from "../Assets/main__background.png";
 import join__us__background from "../Assets/join__us__background.png";
 import founderPic from "../Assets/founderPic.png";
 import visionPic from "../Assets/visionPic.png";
+import Header from "../Components/Header";
+import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
+import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
+import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
+import {
+  Facebook,
+  GitHub,
+  Instagram,
+  Linkedin,
+  Monitor,
+  Twitter,
+  Youtube,
+} from "react-feather";
 
 export default function HomeScreen() {
   return (
     <>
+      <Header />
       <div className="homepage__main__container">
         <div className="homepage__main__container__jumbotron">
           <img
@@ -21,6 +35,7 @@ export default function HomeScreen() {
               </div>
               <div className="homepage__main__container__jumbotron__wrapper__content__heading">
                 Fundraising Services for
+                <br />
                 <span>Emerging Startups</span>
               </div>
               <div className="homepage__main__container__jumbotron__wrapper__content__info">
@@ -377,7 +392,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container" style={{ minHeight: "fit-content" }}>
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">
@@ -481,6 +496,47 @@ export default function HomeScreen() {
                 </div>
               </div>
             </div>
+            <div className="container__our__team__wrapper">
+              <div className="container__our__team__wrapper__entry">
+                <img
+                  src={container__our__team__wrapper__entry__img__1}
+                  alt="container__our__team__wrapper__entry__img"
+                  className="container__our__team__wrapper__entry__img"
+                />
+                <div className="container__our__team__wrapper__entry__heading">
+                  Laraib
+                </div>
+                <div className="container__our__team__wrapper__entry__sub__heading">
+                  (Co-founder)
+                </div>
+              </div>
+              <div className="container__our__team__wrapper__entry">
+                <img
+                  src={container__our__team__wrapper__entry__img__2}
+                  alt="container__our__team__wrapper__entry__img"
+                  className="container__our__team__wrapper__entry__img"
+                />
+                <div className="container__our__team__wrapper__entry__heading">
+                  Tajulle Ahmed
+                </div>
+                <div className="container__our__team__wrapper__entry__sub__heading">
+                  (Co-founder)
+                </div>
+              </div>
+              <div className="container__our__team__wrapper__entry">
+                <img
+                  src={container__our__team__wrapper__entry__img__3}
+                  alt="container__our__team__wrapper__entry__img"
+                  className="container__our__team__wrapper__entry__img"
+                />
+                <div className="container__our__team__wrapper__entry__heading">
+                  Khizr Iqbal
+                </div>
+                <div className="container__our__team__wrapper__entry__sub__heading">
+                  (Co-founder)
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="our__vision__container">
@@ -503,7 +559,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container" style={{ minHeight: "fit-content" }}>
           <div className="footer__container">
             <div className="footer__container__content">
               <div className="footer__container__content__heading">
@@ -573,6 +629,76 @@ export default function HomeScreen() {
               <div className="footer__container__content__copy__write">
                 <a href="">peerwest.com</a> All Rights Reserved
               </div>
+            </div>
+            <div className="footer__container__bar">
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link1"
+              >
+                <Youtube size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  Youtube
+                </div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link2"
+              >
+                <GitHub size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">GitHub</div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link3"
+              >
+                <Monitor size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  Discord
+                </div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link4"
+              >
+                <Twitter size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  Twitter
+                </div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link5"
+              >
+                <Monitor size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">Reddit</div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link6"
+              >
+                <Linkedin size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  LinkedIn
+                </div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link7"
+              >
+                <Instagram size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  Instagram
+                </div>
+              </a>
+              <a
+                href="#"
+                className="footer__container__bar__link footer__container__bar__link8"
+              >
+                <Facebook size={20} color="currentColor" />
+                <div className="footer__container__bar__link__text">
+                  Facebook
+                </div>
+              </a>
             </div>
           </div>
         </div>
