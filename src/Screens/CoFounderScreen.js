@@ -8,30 +8,12 @@ import InputRadio from "../Components/InputRadio";
 import InputFile from "../Components/InputFile";
 
 export default function CoFounderScreen() {
-  const options = [
+  const TechnicalOptions = [
     {
-      label: "1234567",
+      label: "Yes",
     },
     {
-      label: "1234561",
-    },
-    {
-      label: "1234562",
-    },
-    {
-      label: "1234563",
-    },
-    {
-      label: "1234564",
-    },
-    {
-      label: "1234565",
-    },
-    {
-      label: "1234566",
-    },
-    {
-      label: "1234568",
+      label: "No",
     },
   ];
   return (
@@ -64,7 +46,7 @@ export default function CoFounderScreen() {
         <div className="container">
           <div className="start__up__container">
             <div className="start__up__container__heading">
-              Start-up Registeration Form
+              Co-Founder Registeration Form
             </div>
             <div className="start__up__container__info">
               Connect startups with potential investors and secure initial
@@ -72,29 +54,30 @@ export default function CoFounderScreen() {
             </div>
             <form action="" className="start__up__container__form">
               <InputField
-                placeholder="12234234234234"
-                label="label"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, culpa!"
+                placeholder="Your Answer"
+                label="Name"
                 required={true}
               />
-              <InputTextArea
-                placeholder="12234234234234"
-                label="label"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, culpa!"
+              <InputField
+                placeholder="Your Answer"
+                label="Email"
+                required={true}
+              />
+              <InputField
+                placeholder="Your Answer"
+                label="LinkedIn URL"
                 required={true}
               />
               <InputRadio
-                options={options}
-                placeholder="12234234234234"
-                label="label"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, culpa!"
+                options={TechnicalOptions}
+                description="You are a programmer, scientist or engineer who can build the product without outside assistance"
+                placeholder="Are you technical?"
+                label="Are you technical?"
                 required={true}
               />
-
-              <InputFile
-                placeholder="12234234234234"
-                label="label"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, culpa!"
+              <InputField
+                placeholder="Your Answer"
+                label="Most impressive accomplishment"
                 required={true}
               />
               <div className="start__up__container__form__row">
