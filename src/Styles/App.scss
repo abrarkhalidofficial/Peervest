@@ -51,7 +51,7 @@ body {
   border: none;
   align-items: center;
   justify-content: center;
-  color: $blue;
+  color: $primary;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -60,7 +60,7 @@ body {
 .menu__btn:hover {
   transition: 200ms ease-in-out;
   color: $white;
-  background-color: $blue;
+  background-color: $primary;
 }
 .header__nav {
   display: flex;
@@ -84,7 +84,7 @@ body {
 }
 .nav__header__link:hover {
   transition: 200ms ease-in-out;
-  color: $blue;
+  color: $primary;
 }
 .nav__header__btn {
   display: flex;
@@ -99,11 +99,11 @@ body {
   outline: none;
   background: $white;
   cursor: pointer;
-  color: $blue;
+  color: $primary;
 }
 .nav__header__btn:hover {
   transition: 200ms ease-in-out;
-  background: $blue;
+  background: $primary;
   color: $white;
 }
 .homepage__main__container {
@@ -799,6 +799,9 @@ body {
   }
 }
 @media (max-width: 1000px) {
+  .header {
+    background-color: $textColor;
+  }
   .header__wrapper {
     padding: 0.3em 1em;
   }
@@ -814,6 +817,7 @@ body {
     animation-fill-mode: forwards;
     animation-timing-function: linear, cubic-bezier(0.23, 1, 0.32, 1);
     animation-delay: 200ms, 0;
+    background-color: $textColor;
   }
   @keyframes fade {
     0% {
