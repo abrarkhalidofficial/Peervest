@@ -444,7 +444,7 @@ export default function HomeScreen() {
                 that could put in their money. My background in accounting and
                 finance from IBA and the mentorship i recieved there gave me a
                 sound understanding of the investment and funding culture in
-                Pakistan's start-up ecosystem. PeerVest Global is the outcome of
+                Pakistan's start-up ecosystem. PEERWEST Global is the outcome of
                 the thought process that started at IBA, and is today a
                 functioning platform, always evolving. We're here to hand hold
                 all tech startups and investors in their journey to succeed.
@@ -481,7 +481,7 @@ export default function HomeScreen() {
                   that could put in their money. My background in accounting and
                   finance from IBA and the mentorship i recieved there gave me a
                   sound understanding of the investment and funding culture in
-                  Pakistan's start-up ecosystem. PeerVest Global is the outcome
+                  Pakistan's start-up ecosystem. PEERWEST Global is the outcome
                   of the thought process that started at IBA, and is today a
                   functioning platform, always evolving. We're here to hand hold
                   all tech startups and investors in their journey to succeed.

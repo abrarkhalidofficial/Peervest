@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="footer__container">
         <div className="footer__container__content">
           <div className="footer__container__content__heading">
-            <span>PEERVEST</span> Provides Digital Trust, Enabling Us To Build A
+            <span>PEERWEST</span> Provides Digital Trust, Enabling Us To Build A
             Better World
           </div>
           <svg
