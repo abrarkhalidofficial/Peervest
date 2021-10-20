@@ -460,6 +460,7 @@ body {
   width: 100%;
   position: relative;
   height: fit-content;
+  overflow-x: hidden;
 }
 .our__vision__img {
   width: 100%;
@@ -971,7 +972,8 @@ body {
     min-width: 50%;
   }
   .homepage__main__container__jumbotron__img {
-    margin-left: -700px;
+    margin-left: -800px;
+    min-height: 600px;
   }
   .container__our__team__wrapper {
     flex-direction: column;
