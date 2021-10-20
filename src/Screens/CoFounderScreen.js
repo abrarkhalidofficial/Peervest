@@ -3,9 +3,7 @@ import Header from "../Components/Header";
 import co__founder__background from "../Assets/co__founder__background.png";
 import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
-import InputTextArea from "../Components/InputTextArea";
 import InputRadio from "../Components/InputRadio";
-import InputFile from "../Components/InputFile";
 
 export default function CoFounderScreen() {
   const TechnicalOptions = [

@@ -4,8 +4,6 @@ import contact__background from "../Assets/contact__background.png";
 import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";
-import InputRadio from "../Components/InputRadio";
-import InputFile from "../Components/InputFile";
 
 export default function ContactScreen() {
   return (
