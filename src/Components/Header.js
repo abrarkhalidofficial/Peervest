@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, useHistory } from "react-router-dom";
-import logoDark from "../Assets/logo-dark.svg";
+import logo from "../Assets/logo-light.png";
 
 function Btn() {
   const history = useHistory();
@@ -50,7 +50,7 @@ export default class Header extends Component {
       >
         <div className="header__wrapper">
           <Link to="/" className="header__logo">
-            <img src={logoDark} alt="logo" className="header__logo__img" />
+            <img src={logo} alt="logo" className="header__logo__img" />
           </Link>
           <button
             className="menu__btn"
