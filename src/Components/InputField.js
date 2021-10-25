@@ -22,6 +22,7 @@ export default function InputField({
       <div className="start__up__container__form__input__box__content">
         <input
           type="text"
+          required={required}
           placeholder={placeholder}
           className="start__up__container__form__input__box__field"
         />

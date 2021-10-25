@@ -612,16 +612,18 @@ body {
   color: $textColor;
   margin-bottom: 3em;
 }
-.start__up__container__form__input__box {
-  padding: 3em;
-  display: flex;
-  flex-direction: column;
+.start__up__container__form {
   background-color: #f1f2ff;
   border-radius: 20px;
-  margin-bottom: 2em;
+  padding-top: 1em;
+}
+.start__up__container__form__input__box {
+  padding: 2em 3em;
+  display: flex;
+  flex-direction: column;
 }
 .start__up__container__form__input__box__label {
-  font-size: 18px;
+  font-size: 16px;
   color: $blue;
   display: flex;
   align-items: center;
@@ -701,6 +703,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2em 3em;
 }
 .start__up__container__form__button {
   background-color: $blue;
