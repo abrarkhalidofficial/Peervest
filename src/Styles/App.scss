@@ -259,18 +259,41 @@ body {
 }
 .milestone__container__content__card {
   width: 28%;
-  background: #f1f2ff;
   min-height: 240px;
   padding: 2em;
   padding-top: 7em;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
 }
-.milestone__container__content__card:hover,
-.milestone__container__content__card__blue:hover {
+.milestone__container__content__card__svg {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  fill: $blue;
+}
+.milestone__container__content__card__svg svg {
+  width: 80px;
+  height: 80px;
+}
+.milestone__container__content__card:hover
+  .milestone__container__content__card__value,
+.milestone__container__content__card:hover
+  .milestone__container__content__card__heading,
+.milestone__container__content__card:hover
+  .milestone__container__content__card__type {
+  color: $white;
+}
+.milestone__container__content__card__svg:hover {
+  fill: $white;
+}
+.milestone__container__content__card:hover {
   transition: 300ms ease-in-out;
   transform: scale(1.05);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  background: $blue;
 }
 .milestone__container__content__card__value {
   font-size: 50px;
@@ -286,9 +309,6 @@ body {
   font-size: 20px;
   color: $textColor;
   font-weight: bold;
-}
-.milestone__container__content__card__blue {
-  background: $blue;
 }
 .milestone__container__content__card__blue
   .milestone__container__content__card__value,
@@ -359,6 +379,10 @@ body {
   margin-top: 1em;
 }
 .join__us__container__content__cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   max-width: 15%;
   border: 1px solid $disabled;
   height: 45px;
@@ -843,8 +867,9 @@ input:-webkit-autofill:active {
   outline: none;
 }
 .contact__container__form__button:hover {
-  transition: 300ms ease-in-out;
+  transition: 400ms ease-in-out;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  background: #081b35;
 }
 .contact__container__form__content {
   display: flex;
