@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
-import contact__background from "../Assets/contact__background.png";
+import contact__background from "../Assets/contact__background.jpg";
 import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";

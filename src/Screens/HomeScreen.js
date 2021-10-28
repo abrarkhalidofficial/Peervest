@@ -1,5 +1,5 @@
 import React from "react";
-import main__background from "../Assets/main__background.png";
+import main__background from "../Assets/main__background.jpg";
 import join__us__background from "../Assets/join__us__background.png";
 import founderPic from "../Assets/founderPic.png";
 import visionPic from "../Assets/visionPic.png";
