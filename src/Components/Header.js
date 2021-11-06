@@ -109,9 +109,12 @@ export default class Header extends Component {
                   : "header__nav"
               }
             >
-              <Link to="/co-founder" className="nav__header__link">
-                Co-founder
+              <Link to="/investor" className="nav__header__link">
+                Investor
               </Link>
+              {/* <Link to="/co-founder" className="nav__header__link">
+                Co-founder
+              </Link> */}
               <Link to="/start-up" className="nav__header__link">
                 Start-up
               </Link>

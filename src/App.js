@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import CoFounderScreen from "./Screens/CoFounderScreen";
 import ContactScreen from "./Screens/ContactScreen";
 import HomeScreen from "./Screens/HomeScreen";
+import InvestorScreen from "./Screens/InvestorScreen";
 import StartUpScreen from "./Screens/StartUpScreen";
 
 export default function App() {
@@ -17,6 +18,9 @@ export default function App() {
         </Route>
         <Route path="/co-founder">
           <CoFounderScreen />
+        </Route>
+        <Route path="/investor">
+          <InvestorScreen />
         </Route>
         <Route path="/contact">
           <ContactScreen />
