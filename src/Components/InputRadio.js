@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function InputRadio({
   label,
@@ -7,6 +7,7 @@ export default function InputRadio({
   description,
   options,
 }) {
+  const [focus, setFocus] = useState(false);
   return (
     <div className="start__up__container__form__input__box">
       <div
@@ -29,6 +30,11 @@ export default function InputRadio({
             <>
               <input
                 type="radio"
+                onChange={(e) => {
+                  e.target.checked && item.label === "Other:"
+                    ? setFocus(true)
+                    : setFocus(false);
+                }}
                 name={
                   "start__up__container__form__input__box__radio__label" +
                   placeholder
@@ -45,23 +51,34 @@ export default function InputRadio({
                   item.label
                 }
                 className="start__up__container__form__input__box__radio__label"
-                style={
-                  item.label === "Other:"
-                    ? {
-                        display: "flex",
-                        alignItems: "center",
-                        whiteSpace: "nowrap",
-                      }
-                    : null
-                }
+                // style={
+                //   item.label === "Other:"
+                //     ? {
+                //         display: "flex",
+                //         alignItems: "center",
+                //         whiteSpace: "nowrap",
+                //       }
+                //     : null
+                // }
               >
                 {item.label}
                 {item.label === "Other:" ? (
                   <input
                     type="text"
+                    disabled={!focus}
                     placeholder={placeholder}
                     className="start__up__container__form__input__box__field"
-                    style={{ flex: 1, marginLeft: 20 }}
+                    autoFocus
+                    style={
+                      !focus
+                        ? {
+                            flex: 1,
+                            marginLeft: 20,
+                            borderWidth: "1px",
+                            opacity: 0.5,
+                          }
+                        : { flex: 1, marginLeft: 20, borderWidth: 2 }
+                    }
                   />
                 ) : null}
               </label>
