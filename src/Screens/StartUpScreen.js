@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
 import start__up__background from "../Assets/start__up__background.jpg";
-import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";
 import InputRadio from "../Components/InputRadio";
@@ -248,7 +247,6 @@ export default function StartUpScreen() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

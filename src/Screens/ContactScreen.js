@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
 import contact__background from "../Assets/contact__background.jpg";
-import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
@@ -132,9 +131,6 @@ export default function ContactScreen() {
             </form>
           </div>
         </div>
-      </div>
-      <div className="contact__footer__container">
-        <Footer />
       </div>
     </>
   );

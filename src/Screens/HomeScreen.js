@@ -7,7 +7,6 @@ import Header from "../Components/Header";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
-import Footer from "../Components/Footer";
 import { Link } from "react-router-dom";
 
 export default function HomeScreen() {
@@ -41,9 +40,9 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="startups__wrapper">
           <div className="container__startups">
-            <Link to="/start-up" className="container__startups__card">
+            <div to="/start-up" className="container__startups__card">
               <div className="container__startups__card__left">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -194,11 +193,16 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div className="container__startups__card__right">
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
+                <div className="container__startups__card__right__heading">
+                  Connect startups with potential investors and secure initial
+                  meetings to pitch the venture and raise capital.
+                </div>
+                <Link className="container__startups__card__right__btn">
+                  Become a Part
+                </Link>
               </div>
-            </Link>
-            <Link to="/co-founder" className="container__startups__card">
+            </div>
+            <div to="/co-founder" className="container__startups__card">
               <div className="container__startups__card__left">
                 <svg
                   id="Group_14"
@@ -269,123 +273,21 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div className="container__startups__card__right">
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
-              </div>
-            </Link>
-            <Link to="/" className="container__startups__card">
-              <div className="container__startups__card__left">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="150.01"
-                  height="125.715"
-                  viewBox="0 0 150.01 125.715"
-                >
-                  <defs>
-                    <clipPath id="clip-path">
-                      <rect
-                        id="Rectangle_30"
-                        data-name="Rectangle 30"
-                        width="150.01"
-                        height="125.715"
-                        fill="currentColor"
-                      />
-                    </clipPath>
-                  </defs>
-                  <g
-                    id="Group_10"
-                    data-name="Group 10"
-                    transform="translate(0)"
-                  >
-                    <g
-                      id="Group_8"
-                      data-name="Group 8"
-                      transform="translate(0)"
-                      clip-path="url(#clip-path)"
-                    >
-                      <g
-                        id="Group_7"
-                        data-name="Group 7"
-                        transform="translate(4.094 4.614)"
-                      >
-                        <path
-                          id="Path_31"
-                          data-name="Path 31"
-                          d="M-106,4661.127H9.876c-4.154-2.791-3.245-7.179-3.248-11.238q-.021-31.8-.007-63.59v-4.073c-3.441,3.237-6.368,6-9.307,8.753-3.821,3.578-6.322,3.612-10.175.14q-5.11-4.6-10.2-9.23c-.226-.2-.445-.42-.663-.636-2.412-2.384-2.962-4.977-1.469-6.921s4.305-1.765,6.885.521c1.9,1.689,3.751,3.452,5.634,5.167,1.271,1.16,2.56,2.3,4,3.584,3.967-3.723,7.686-7.518,11.734-10.86a11.278,11.278,0,0,1,6.1-2.5c5.741-.358,11.512-.242,17.27-.172,5.991.075,8.1,2.215,8.808,8.593.172,1.544.393,3.083.591,4.622v19.619a13.733,13.733,0,0,1-.668,3.022c-1.082,2.293-1.963,4.919-3.647,6.59a4.782,4.782,0,0,0-1.691,3.888c.034,11.8-.041,23.6.054,35.394.029,3.617-.319,6.89-4.408,9.326H35.819v12.013H-106Zm24.385,6.487-1.738-.793.5,2.326Zm96.393-6.665h6.87l-3.439-3.865Z"
-                          transform="translate(106 -4538.991)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_32"
-                          data-name="Path 32"
-                          d="M-23.173,4521c8.35,3.257,10.715,6.911,10.715,16.56v19.928c-2.252-1.74-4.231-3.089-5.977-4.72a4.278,4.278,0,0,1-.849-2.762c-.083-4.743-.008-9.49-.047-14.235-.043-5.221-1.986-7.411-6.806-7.421q-33.064-.058-66.127,0c-4.864.008-6.849,2.152-6.86,7.36q-.055,25.307,0,50.616c.011,5.488,1.912,7.49,6.979,7.492q32.915.016,65.829,0c5.08,0,6.948-2,6.989-7.478.035-4.617.008-9.236.008-14.426,2.362,1.953,4.356,3.559,6.292,5.242a1.984,1.984,0,0,1,.539,1.346c-.036,3.79.229,7.638-.295,11.357-1,7.1-6.134,11.34-13.287,11.4-7.937.062-15.874.014-24.417.014.863,1.04,1.356,1.721,1.932,2.312,5,5.131,9.989,10.265,15.026,15.351,1.716,1.731,2.577,3.569.927,5.783-1.436,1.926-3.4,1.746-5.636-.516-5.181-5.229-10.313-10.514-15.473-15.768-.541-.551-1.134-1.044-2.179-2,0,4.228-.039,7.868.014,11.5.037,2.571-.717,4.466-3.442,4.424-2.543-.039-3.307-1.869-3.292-4.288.023-3.648.006-7.3.006-11.8-3.887,3.939-7.223,7.312-10.548,10.7-2.509,2.554-5,5.125-7.506,7.683-1.592,1.626-3.374,1.994-5,.261-1.724-1.843-1.351-3.808.334-5.538q7.39-7.583,14.808-15.134a24.608,24.608,0,0,1,2.577-2.017l-.506-.947H-90.313c-9.063,0-12.4-2.4-15.687-11.292v-58.22c1.834-5.544,5.237-9.324,10.726-10.758Z"
-                          transform="translate(106 -4521)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_33"
-                          data-name="Path 33"
-                          d="M-25.114,4570.454c0,6.847-.08,13.7.043,20.544.046,2.547-.675,3.7-3.2,3.578-2.97-.145-5.952-.092-8.927-.017-2.053.053-3.079-.62-3.067-3.061q.107-21.177.014-42.354c-.006-1.982.648-2.928,2.584-2.892,3.273.062,6.549.076,9.821-.005,2.055-.05,2.785.868,2.76,3.031C-25.165,4556.333-25.114,4563.394-25.114,4570.454Z"
-                          transform="translate(79.434 -4530.269)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_34"
-                          data-name="Path 34"
-                          d="M-63.56,4592.456c0,3.582-.074,7.168.027,10.746.066,2.335-.863,3.222-3.006,3.163-3.271-.09-6.547-.047-9.821-.021-1.717.012-2.542-.777-2.535-2.661.031-7.586-.061-15.174.119-22.754a3.39,3.39,0,0,1,2.268-2.389c3.453-.273,6.937-.087,10.408-.125,1.953-.021,2.586,1.054,2.556,2.978C-63.6,4585.08-63.561,4588.768-63.56,4592.456Z"
-                          transform="translate(95.046 -4542.07)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_35"
-                          data-name="Path 35"
-                          d="M13.537,4602.412q0,2.365,0,4.731c0,4.38-.1,4.489-4.089,4.5-2.87.007-5.74-.043-8.609.01-1.888.035-2.68-.86-2.657-2.853.051-4.413.033-8.828.008-13.242-.01-1.776.6-2.762,2.426-2.734,3.463.051,6.927.042,10.39,0,1.736-.019,2.554.806,2.535,2.649C13.518,4597.789,13.536,4600.1,13.537,4602.412Z"
-                          transform="translate(63.898 -4547.372)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_36"
-                          data-name="Path 36"
-                          d="M96.587,4557.442a8.856,8.856,0,0,1-8.631-9.224c.074-5.08,4.078-9.218,8.814-9.115,4.629.1,8.431,4.2,8.481,9.15A8.83,8.83,0,0,1,96.587,4557.442Z"
-                          transform="translate(27.619 -4527.646)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_37"
-                          data-name="Path 37"
-                          d="M-66.256,4723.79l-1.235,1.532-.5-2.324.781,1.756Z"
-                          transform="translate(90.641 -4595.168)"
-                          fill="currentColor"
-                        />
-                        <path
-                          id="Path_38"
-                          data-name="Path 38"
-                          d="M-66.256,4723.79l-.956.964-.781-1.756Z"
-                          transform="translate(90.641 -4595.168)"
-                          fill="currentColor"
-                        />
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-
-                <div className="container__startups__card__left__content">
-                  <div className="container__startups__card__left__content__sub__heading">
-                    Raising
-                  </div>
-                  <div className="container__startups__card__left__content__heading">
-                    Deck and Model
-                  </div>
+                <div className="container__startups__card__right__heading">
+                  Connect startups with potential investors and secure initial
+                  meetings to pitch the venture and raise capital.
                 </div>
+                <Link className="container__startups__card__right__btn">
+                  Become a Part
+                </Link>
               </div>
-              <div className="container__startups__card__right">
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
-              </div>
-            </Link>
+            </div>
           </div>
         </div>
-        <div className="container" style={{ minHeight: "fit-content" }}>
+        <div
+          className="milestone__wrapper"
+          style={{ minHeight: "fit-content" }}
+        >
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">
@@ -497,18 +399,14 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="join__us__container">
-          <img
-            src={join__us__background}
-            alt="join__us__background"
-            className="join__us__img"
-          />
-          <div className="join__us__container__content__wrapper">
-            <div className="join__us__container__content">
-              <div className="join__us__container__content__heading">
-                Some Fancy Heading Here
+
+        <div className="container__why__choose__us">
+          <div className="container__why__choose__us__wrapper">
+            <div className="container__why__choose__us__wrapper__content">
+              <div className="container__why__choose__us__wrapper__content__heading">
+                Why Choose Us
               </div>
-              <div className="join__us__container__content__info">
+              <div className="container__why__choose__us__wrapper__content__info">
                 My vision is to imtroduce crowdfunding as a safe and viable
                 fundeaising option for Pakistan's start-ups. Having closely
                 worked with financially constrained startups and the investor
@@ -522,9 +420,9 @@ export default function HomeScreen() {
                 functioning platform, always evolving. We're here to hand hold
                 all tech startups and investors in their journey to succeed.
               </div>
-              <Link to="/contact" className="join__us__container__content__cta">
-                Join Us Now
-              </Link>
+              <button className="homepage__main__container__jumbotron__wrapper__content__cta">
+                Become a Part
+              </button>
             </div>
           </div>
         </div>
@@ -604,27 +502,6 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="our__vision__container">
-          <img src={visionPic} alt="visionPic" className="our__vision__img" />
-          <div className="our__vision__container__wrapper">
-            <div className="our__vision__container__wrapper__content">
-              <div className="our__vision__container__wrapper__content__heading">
-                Some Fancy Heading Here
-              </div>
-              <div className="our__vision__container__wrapper__content__info">
-                My vision is to imtroduce crowdfunding as a safe and viable
-                fundeaising option for Pakistan's start-ups. Having closely
-                worked with financially constrained startups and the investor
-                fraternity, I found the equation off balanced with a large
-                influx of needy startups and only a handful of angels or VC's
-                that could put in their money. My background in accounting and
-                finance from IBA and the mentorship i recieved there gave me a
-                sound.
-              </div>
-            </div>
-          </div>
-        </div>
-        <Footer />
       </div>
     </>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
 import co__founder__background from "../Assets/co__founder__background.jpg";
-import Footer from "../Components/Footer";
 import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";
 import InputRadio from "../Components/InputRadio";
@@ -206,7 +205,6 @@ export default function InvestorScreen() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
