@@ -4,6 +4,7 @@ import join__us__background from "../Assets/join__us__background.png";
 import founderPic from "../Assets/founderPic.png";
 import visionPic from "../Assets/visionPic.png";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
@@ -1070,6 +1071,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
