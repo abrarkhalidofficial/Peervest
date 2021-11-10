@@ -452,21 +452,14 @@ body {
   font-size: 32px;
   color: $textColor;
   font-weight: bold;
-  margin-bottom: 1em;
 }
-.container__our__team__card {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: $blue;
-  background-image: url(../Assets/startup__card__img.png);
-  background-blend-mode: multiply;
-  border-radius: 20px;
-  width: 90%;
-  height: fit-content;
-  padding: 4em 2em;
+.container__our__team__info {
+  font-size: 16px;
+  color: $disabled;
+  margin: 1em 0em;
+  width: 50%;
+  text-align: center;
 }
-
 .container__why__choose__us {
   display: flex;
   width: 100%;
@@ -477,18 +470,6 @@ body {
   background-blend-mode: multiply;
   padding: 4em 2em;
 }
-.container__our__team__card__content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.container__our__team__card__content__left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 35%;
-}
 .container__why__choose__us__wrapper {
   display: flex;
   flex-direction: column;
@@ -496,34 +477,91 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container__our__team__card__content__right {
-  width: 60%;
-  color: $white;
-  font-weight: 16px;
-}
-.container__our__team__card__content__left__img {
-  width: 180px;
-  height: 180px;
-}
-.container__our__team__card__content__left__heading {
-  width: 50%;
-  color: $white;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 1em;
-}
+
 .container__our__team__wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 6em 12em;
   width: 100%;
+  max-width: 1440px;
+  padding: 4em 0em;
+}
+.container__our__team__card {
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__our__team__card__img {
+  width: 280px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__our__team__card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.container__our__team__card__content__heading {
+  font-size: 20px;
+  color: $white;
+  font-weight: bold;
+  text-align: center;
+}
+.container__our__team__card__content__info {
+  font-size: 16px;
+  color: $white;
+  font-weight: bold;
+  text-align: center;
+}
+.container__our__team__card__content__social__links {
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.container__our__team__card__content__social__links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__our__team__card__content__social__links__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+.container__our__team__card__content__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(10, 38, 78, 0.5);
+  transition: 400ms;
+}
+.container__our__team__card:hover
+  .container__our__team__card__content__overlay {
+  display: flex;
 }
 .container__our__team__wrapper__entry {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: chocolate;
 }
 .container__our__team__wrapper__entry__img {
   width: 220px;
@@ -1093,6 +1131,14 @@ input:-webkit-autofill:active {
     padding: 6em;
   }
 }
+@media (max-width: 1350px) {
+  .container__our__team__wrapper {
+    flex-wrap: wrap;
+  }
+  .container__our__team__card {
+    margin-top: 2em;
+  }
+}
 @media (max-width: 1250px) {
   .contact__container {
     height: fit-content;
@@ -1187,6 +1233,9 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 900px) {
+  .container__our__team__info {
+    width: 80%;
+  }
   .container__startups {
     flex-direction: column;
   }

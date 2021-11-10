@@ -429,74 +429,642 @@ export default function HomeScreen() {
         <div className="container">
           <div className="container__our__team">
             <div className="container__our__team__heading">Our Team</div>
-            <div className="container__our__team__card">
-              <div className="container__our__team__card__content">
-                <div className="container__our__team__card__content__left">
-                  <div className="container__our__team__card__content__left__img__container">
-                    <img
-                      src={founderPic}
-                      alt="founderPic"
-                      className="container__our__team__card__content__left__img"
-                    />
-                  </div>
-                  <div className="container__our__team__card__content__left__heading">
-                    Fizza Nadeem Siddique (Founder)
-                  </div>
-                </div>
-                <div className="container__our__team__card__content__right">
-                  My vision is to imtroduce crowdfunding as a safe and viable
-                  fundeaising option for Pakistan's start-ups. Having closely
-                  worked with financially constrained startups and the investor
-                  fraternity, I found the equation off balanced with a large
-                  influx of needy startups and only a handful of angels or VC's
-                  that could put in their money. My background in accounting and
-                  finance from IBA and the mentorship i recieved there gave me a
-                  sound understanding of the investment and funding culture in
-                  Pakistan's start-up ecosystem. PeerVest Global is the outcome
-                  of the thought process that started at IBA, and is today a
-                  functioning platform, always evolving. We're here to hand hold
-                  all tech startups and investors in their journey to succeed.
-                </div>
-              </div>
+            <div className="container__our__team__info">
+              Create a concise and compelling investment pitch deck that
+              contains information required by investors. Create a concise and
+              compelling investment.
             </div>
             <div className="container__our__team__wrapper">
-              <div className="container__our__team__wrapper__entry">
+              <div className="container__our__team__card">
+                <img
+                  src={founderPic}
+                  alt="container__our__team__wrapper__entry__img"
+                  className="container__our__team__card__img"
+                />
+                <div className="container__our__team__card__content__overlay">
+                  <div className="container__our__team__card__content">
+                    <div className="container__our__team__card__content__heading">
+                      Fizza Nadeem Siddique
+                    </div>
+                    <div className="container__our__team__card__content__info">
+                      (Founder)
+                    </div>
+                    <div className="container__our__team__card__content__social__links__container">
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="7.285"
+                            height="14.568"
+                            viewBox="0 0 7.285 14.568"
+                          >
+                            <path
+                              id="facebook"
+                              d="M12.142,2.419h1.33V.1A17.174,17.174,0,0,0,11.534,0,3.076,3.076,0,0,0,8.3,3.423v2.04H6.187v2.59H8.3v6.516H10.9V8.053h2.03l.322-2.59H10.9V3.68c0-.748.2-1.261,1.245-1.261Z"
+                              transform="translate(-6.187)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="instagram_1_"
+                            data-name="instagram (1)"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14.568"
+                            height="14.568"
+                            viewBox="0 0 14.568 14.568"
+                          >
+                            <path
+                              id="Path_148"
+                              data-name="Path 148"
+                              d="M213.561,212.28a1.28,1.28,0,1,1-1.28-1.28A1.28,1.28,0,0,1,213.561,212.28Zm0,0"
+                              transform="translate(-204.996 -204.996)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_149"
+                              data-name="Path 149"
+                              d="M126.032,120h-4.325A1.709,1.709,0,0,0,120,121.707v4.325a1.709,1.709,0,0,0,1.707,1.707h4.325a1.709,1.709,0,0,0,1.707-1.707v-4.325A1.709,1.709,0,0,0,126.032,120Zm-2.163,6A2.134,2.134,0,1,1,126,123.87,2.136,2.136,0,0,1,123.87,126Zm2.447-4.154a.427.427,0,1,1,.427-.427A.427.427,0,0,1,126.317,121.85Zm0,0"
+                              transform="translate(-116.586 -116.586)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_150"
+                              data-name="Path 150"
+                              d="M10.727,0H3.841A3.846,3.846,0,0,0,0,3.841v6.886a3.846,3.846,0,0,0,3.841,3.841h6.886a3.846,3.846,0,0,0,3.841-3.841V3.841A3.846,3.846,0,0,0,10.727,0Zm1.28,9.447a2.564,2.564,0,0,1-2.561,2.561H5.122A2.564,2.564,0,0,1,2.561,9.447V5.122A2.564,2.564,0,0,1,5.122,2.561H9.447a2.564,2.564,0,0,1,2.561,2.561Zm0,0"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.689"
+                            height="12.748"
+                            viewBox="0 0 15.689 12.748"
+                          >
+                            <path
+                              id="twitter"
+                              d="M14.077,5.429a6.421,6.421,0,0,0,1.612-1.67h0a6.717,6.717,0,0,1-1.853.508,3.2,3.2,0,0,0,1.415-1.777,6.436,6.436,0,0,1-2.04.779,3.216,3.216,0,0,0-5.564,2.2,3.312,3.312,0,0,0,.075.733,9.106,9.106,0,0,1-6.63-3.365,3.216,3.216,0,0,0,.988,4.3,3.179,3.179,0,0,1-1.453-.4v.035A3.232,3.232,0,0,0,3.2,9.934a3.2,3.2,0,0,1-.843.106,2.839,2.839,0,0,1-.609-.055,3.248,3.248,0,0,0,3.005,2.241A6.465,6.465,0,0,1,.769,13.6,6.083,6.083,0,0,1,0,13.554,9.058,9.058,0,0,0,4.934,15a9.092,9.092,0,0,0,9.143-9.568Z"
+                              transform="translate(0 -2.25)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="google"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.176"
+                            height="15.176"
+                            viewBox="0 0 15.176 15.176"
+                          >
+                            <g
+                              id="Group_81"
+                              data-name="Group 81"
+                              transform="translate(0 4.23)"
+                            >
+                              <g id="Group_80" data-name="Group 80">
+                                <path
+                                  id="Path_144"
+                                  data-name="Path 144"
+                                  d="M3.367,144.209.782,142.717a7.538,7.538,0,0,0,.011,6.709l2.574-1.486a4.574,4.574,0,0,1,0-3.731Z"
+                                  transform="translate(0 -142.717)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_83"
+                              data-name="Group 83"
+                              transform="translate(1.278 0)"
+                            >
+                              <g id="Group_82" data-name="Group 82">
+                                <path
+                                  id="Path_145"
+                                  data-name="Path 145"
+                                  d="M54.414,1.86A7.587,7.587,0,0,0,43.127,3.374l2.587,1.494a4.6,4.6,0,0,1,6.656-.84.491.491,0,0,0,.66-.032l1.409-1.409A.5.5,0,0,0,54.414,1.86Z"
+                                  transform="translate(-43.127 0)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_85"
+                              data-name="Group 85"
+                              transform="translate(7.918 6.268)"
+                            >
+                              <g id="Group_84" data-name="Group 84">
+                                <path
+                                  id="Path_146"
+                                  data-name="Path 146"
+                                  d="M274.337,211.921a.5.5,0,0,0-.494-.441h-6.217a.5.5,0,0,0-.495.495v1.978a.5.5,0,0,0,.495.495h3.484a4.654,4.654,0,0,1-1.588,2.075l1.48,2.563a7.749,7.749,0,0,0,3.121-4.337A7.3,7.3,0,0,0,274.337,211.921Z"
+                                  transform="translate(-267.131 -211.479)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_87"
+                              data-name="Group 87"
+                              transform="translate(1.289 10.309)"
+                            >
+                              <g id="Group_86" data-name="Group 86">
+                                <path
+                                  id="Path_147"
+                                  data-name="Path 147"
+                                  d="M51.651,349.3a4.59,4.59,0,0,1-5.588-1.5l-2.576,1.487a7.58,7.58,0,0,0,6.3,3.38,7.432,7.432,0,0,0,3.346-.8Z"
+                                  transform="translate(-43.487 -347.801)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="container__our__team__card">
                 <img
                   src={container__our__team__wrapper__entry__img__1}
                   alt="container__our__team__wrapper__entry__img"
-                  className="container__our__team__wrapper__entry__img"
+                  className="container__our__team__card__img"
                 />
-                <div className="container__our__team__wrapper__entry__heading">
-                  Laraib
-                </div>
-                <div className="container__our__team__wrapper__entry__sub__heading">
-                  (Co-founder)
+                <div className="container__our__team__card__content__overlay">
+                  <div className="container__our__team__card__content">
+                    <div className="container__our__team__card__content__heading">
+                      Laraib
+                    </div>
+                    <div className="container__our__team__card__content__info">
+                      (Co-founder)
+                    </div>
+                    <div className="container__our__team__card__content__social__links__container">
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="7.285"
+                            height="14.568"
+                            viewBox="0 0 7.285 14.568"
+                          >
+                            <path
+                              id="facebook"
+                              d="M12.142,2.419h1.33V.1A17.174,17.174,0,0,0,11.534,0,3.076,3.076,0,0,0,8.3,3.423v2.04H6.187v2.59H8.3v6.516H10.9V8.053h2.03l.322-2.59H10.9V3.68c0-.748.2-1.261,1.245-1.261Z"
+                              transform="translate(-6.187)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="instagram_1_"
+                            data-name="instagram (1)"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14.568"
+                            height="14.568"
+                            viewBox="0 0 14.568 14.568"
+                          >
+                            <path
+                              id="Path_148"
+                              data-name="Path 148"
+                              d="M213.561,212.28a1.28,1.28,0,1,1-1.28-1.28A1.28,1.28,0,0,1,213.561,212.28Zm0,0"
+                              transform="translate(-204.996 -204.996)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_149"
+                              data-name="Path 149"
+                              d="M126.032,120h-4.325A1.709,1.709,0,0,0,120,121.707v4.325a1.709,1.709,0,0,0,1.707,1.707h4.325a1.709,1.709,0,0,0,1.707-1.707v-4.325A1.709,1.709,0,0,0,126.032,120Zm-2.163,6A2.134,2.134,0,1,1,126,123.87,2.136,2.136,0,0,1,123.87,126Zm2.447-4.154a.427.427,0,1,1,.427-.427A.427.427,0,0,1,126.317,121.85Zm0,0"
+                              transform="translate(-116.586 -116.586)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_150"
+                              data-name="Path 150"
+                              d="M10.727,0H3.841A3.846,3.846,0,0,0,0,3.841v6.886a3.846,3.846,0,0,0,3.841,3.841h6.886a3.846,3.846,0,0,0,3.841-3.841V3.841A3.846,3.846,0,0,0,10.727,0Zm1.28,9.447a2.564,2.564,0,0,1-2.561,2.561H5.122A2.564,2.564,0,0,1,2.561,9.447V5.122A2.564,2.564,0,0,1,5.122,2.561H9.447a2.564,2.564,0,0,1,2.561,2.561Zm0,0"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.689"
+                            height="12.748"
+                            viewBox="0 0 15.689 12.748"
+                          >
+                            <path
+                              id="twitter"
+                              d="M14.077,5.429a6.421,6.421,0,0,0,1.612-1.67h0a6.717,6.717,0,0,1-1.853.508,3.2,3.2,0,0,0,1.415-1.777,6.436,6.436,0,0,1-2.04.779,3.216,3.216,0,0,0-5.564,2.2,3.312,3.312,0,0,0,.075.733,9.106,9.106,0,0,1-6.63-3.365,3.216,3.216,0,0,0,.988,4.3,3.179,3.179,0,0,1-1.453-.4v.035A3.232,3.232,0,0,0,3.2,9.934a3.2,3.2,0,0,1-.843.106,2.839,2.839,0,0,1-.609-.055,3.248,3.248,0,0,0,3.005,2.241A6.465,6.465,0,0,1,.769,13.6,6.083,6.083,0,0,1,0,13.554,9.058,9.058,0,0,0,4.934,15a9.092,9.092,0,0,0,9.143-9.568Z"
+                              transform="translate(0 -2.25)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="google"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.176"
+                            height="15.176"
+                            viewBox="0 0 15.176 15.176"
+                          >
+                            <g
+                              id="Group_81"
+                              data-name="Group 81"
+                              transform="translate(0 4.23)"
+                            >
+                              <g id="Group_80" data-name="Group 80">
+                                <path
+                                  id="Path_144"
+                                  data-name="Path 144"
+                                  d="M3.367,144.209.782,142.717a7.538,7.538,0,0,0,.011,6.709l2.574-1.486a4.574,4.574,0,0,1,0-3.731Z"
+                                  transform="translate(0 -142.717)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_83"
+                              data-name="Group 83"
+                              transform="translate(1.278 0)"
+                            >
+                              <g id="Group_82" data-name="Group 82">
+                                <path
+                                  id="Path_145"
+                                  data-name="Path 145"
+                                  d="M54.414,1.86A7.587,7.587,0,0,0,43.127,3.374l2.587,1.494a4.6,4.6,0,0,1,6.656-.84.491.491,0,0,0,.66-.032l1.409-1.409A.5.5,0,0,0,54.414,1.86Z"
+                                  transform="translate(-43.127 0)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_85"
+                              data-name="Group 85"
+                              transform="translate(7.918 6.268)"
+                            >
+                              <g id="Group_84" data-name="Group 84">
+                                <path
+                                  id="Path_146"
+                                  data-name="Path 146"
+                                  d="M274.337,211.921a.5.5,0,0,0-.494-.441h-6.217a.5.5,0,0,0-.495.495v1.978a.5.5,0,0,0,.495.495h3.484a4.654,4.654,0,0,1-1.588,2.075l1.48,2.563a7.749,7.749,0,0,0,3.121-4.337A7.3,7.3,0,0,0,274.337,211.921Z"
+                                  transform="translate(-267.131 -211.479)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_87"
+                              data-name="Group 87"
+                              transform="translate(1.289 10.309)"
+                            >
+                              <g id="Group_86" data-name="Group 86">
+                                <path
+                                  id="Path_147"
+                                  data-name="Path 147"
+                                  d="M51.651,349.3a4.59,4.59,0,0,1-5.588-1.5l-2.576,1.487a7.58,7.58,0,0,0,6.3,3.38,7.432,7.432,0,0,0,3.346-.8Z"
+                                  transform="translate(-43.487 -347.801)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="container__our__team__wrapper__entry">
+              <div className="container__our__team__card">
                 <img
                   src={container__our__team__wrapper__entry__img__2}
                   alt="container__our__team__wrapper__entry__img"
-                  className="container__our__team__wrapper__entry__img"
+                  className="container__our__team__card__img"
                 />
-                <div className="container__our__team__wrapper__entry__heading">
-                  Tajulle Ahmed
-                </div>
-                <div className="container__our__team__wrapper__entry__sub__heading">
-                  (Co-founder)
+                <div className="container__our__team__card__content__overlay">
+                  <div className="container__our__team__card__content">
+                    <div className="container__our__team__card__content__heading">
+                      Tajulle Ahmed
+                    </div>
+                    <div className="container__our__team__card__content__info">
+                      (Co-founder)
+                    </div>
+                    <div className="container__our__team__card__content__social__links__container">
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="7.285"
+                            height="14.568"
+                            viewBox="0 0 7.285 14.568"
+                          >
+                            <path
+                              id="facebook"
+                              d="M12.142,2.419h1.33V.1A17.174,17.174,0,0,0,11.534,0,3.076,3.076,0,0,0,8.3,3.423v2.04H6.187v2.59H8.3v6.516H10.9V8.053h2.03l.322-2.59H10.9V3.68c0-.748.2-1.261,1.245-1.261Z"
+                              transform="translate(-6.187)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="instagram_1_"
+                            data-name="instagram (1)"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14.568"
+                            height="14.568"
+                            viewBox="0 0 14.568 14.568"
+                          >
+                            <path
+                              id="Path_148"
+                              data-name="Path 148"
+                              d="M213.561,212.28a1.28,1.28,0,1,1-1.28-1.28A1.28,1.28,0,0,1,213.561,212.28Zm0,0"
+                              transform="translate(-204.996 -204.996)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_149"
+                              data-name="Path 149"
+                              d="M126.032,120h-4.325A1.709,1.709,0,0,0,120,121.707v4.325a1.709,1.709,0,0,0,1.707,1.707h4.325a1.709,1.709,0,0,0,1.707-1.707v-4.325A1.709,1.709,0,0,0,126.032,120Zm-2.163,6A2.134,2.134,0,1,1,126,123.87,2.136,2.136,0,0,1,123.87,126Zm2.447-4.154a.427.427,0,1,1,.427-.427A.427.427,0,0,1,126.317,121.85Zm0,0"
+                              transform="translate(-116.586 -116.586)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_150"
+                              data-name="Path 150"
+                              d="M10.727,0H3.841A3.846,3.846,0,0,0,0,3.841v6.886a3.846,3.846,0,0,0,3.841,3.841h6.886a3.846,3.846,0,0,0,3.841-3.841V3.841A3.846,3.846,0,0,0,10.727,0Zm1.28,9.447a2.564,2.564,0,0,1-2.561,2.561H5.122A2.564,2.564,0,0,1,2.561,9.447V5.122A2.564,2.564,0,0,1,5.122,2.561H9.447a2.564,2.564,0,0,1,2.561,2.561Zm0,0"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.689"
+                            height="12.748"
+                            viewBox="0 0 15.689 12.748"
+                          >
+                            <path
+                              id="twitter"
+                              d="M14.077,5.429a6.421,6.421,0,0,0,1.612-1.67h0a6.717,6.717,0,0,1-1.853.508,3.2,3.2,0,0,0,1.415-1.777,6.436,6.436,0,0,1-2.04.779,3.216,3.216,0,0,0-5.564,2.2,3.312,3.312,0,0,0,.075.733,9.106,9.106,0,0,1-6.63-3.365,3.216,3.216,0,0,0,.988,4.3,3.179,3.179,0,0,1-1.453-.4v.035A3.232,3.232,0,0,0,3.2,9.934a3.2,3.2,0,0,1-.843.106,2.839,2.839,0,0,1-.609-.055,3.248,3.248,0,0,0,3.005,2.241A6.465,6.465,0,0,1,.769,13.6,6.083,6.083,0,0,1,0,13.554,9.058,9.058,0,0,0,4.934,15a9.092,9.092,0,0,0,9.143-9.568Z"
+                              transform="translate(0 -2.25)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="google"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.176"
+                            height="15.176"
+                            viewBox="0 0 15.176 15.176"
+                          >
+                            <g
+                              id="Group_81"
+                              data-name="Group 81"
+                              transform="translate(0 4.23)"
+                            >
+                              <g id="Group_80" data-name="Group 80">
+                                <path
+                                  id="Path_144"
+                                  data-name="Path 144"
+                                  d="M3.367,144.209.782,142.717a7.538,7.538,0,0,0,.011,6.709l2.574-1.486a4.574,4.574,0,0,1,0-3.731Z"
+                                  transform="translate(0 -142.717)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_83"
+                              data-name="Group 83"
+                              transform="translate(1.278 0)"
+                            >
+                              <g id="Group_82" data-name="Group 82">
+                                <path
+                                  id="Path_145"
+                                  data-name="Path 145"
+                                  d="M54.414,1.86A7.587,7.587,0,0,0,43.127,3.374l2.587,1.494a4.6,4.6,0,0,1,6.656-.84.491.491,0,0,0,.66-.032l1.409-1.409A.5.5,0,0,0,54.414,1.86Z"
+                                  transform="translate(-43.127 0)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_85"
+                              data-name="Group 85"
+                              transform="translate(7.918 6.268)"
+                            >
+                              <g id="Group_84" data-name="Group 84">
+                                <path
+                                  id="Path_146"
+                                  data-name="Path 146"
+                                  d="M274.337,211.921a.5.5,0,0,0-.494-.441h-6.217a.5.5,0,0,0-.495.495v1.978a.5.5,0,0,0,.495.495h3.484a4.654,4.654,0,0,1-1.588,2.075l1.48,2.563a7.749,7.749,0,0,0,3.121-4.337A7.3,7.3,0,0,0,274.337,211.921Z"
+                                  transform="translate(-267.131 -211.479)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_87"
+                              data-name="Group 87"
+                              transform="translate(1.289 10.309)"
+                            >
+                              <g id="Group_86" data-name="Group 86">
+                                <path
+                                  id="Path_147"
+                                  data-name="Path 147"
+                                  d="M51.651,349.3a4.59,4.59,0,0,1-5.588-1.5l-2.576,1.487a7.58,7.58,0,0,0,6.3,3.38,7.432,7.432,0,0,0,3.346-.8Z"
+                                  transform="translate(-43.487 -347.801)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="container__our__team__wrapper__entry">
+              <div className="container__our__team__card">
                 <img
                   src={container__our__team__wrapper__entry__img__3}
                   alt="container__our__team__wrapper__entry__img"
-                  className="container__our__team__wrapper__entry__img"
+                  className="container__our__team__card__img"
                 />
-                <div className="container__our__team__wrapper__entry__heading">
-                  Khizr Iqbal
-                </div>
-                <div className="container__our__team__wrapper__entry__sub__heading">
-                  (Co-founder)
+                <div className="container__our__team__card__content__overlay">
+                  <div className="container__our__team__card__content">
+                    <div className="container__our__team__card__content__heading">
+                      Khizr Iqbal
+                    </div>
+                    <div className="container__our__team__card__content__info">
+                      (Co-founder)
+                    </div>
+                    <div className="container__our__team__card__content__social__links__container">
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="7.285"
+                            height="14.568"
+                            viewBox="0 0 7.285 14.568"
+                          >
+                            <path
+                              id="facebook"
+                              d="M12.142,2.419h1.33V.1A17.174,17.174,0,0,0,11.534,0,3.076,3.076,0,0,0,8.3,3.423v2.04H6.187v2.59H8.3v6.516H10.9V8.053h2.03l.322-2.59H10.9V3.68c0-.748.2-1.261,1.245-1.261Z"
+                              transform="translate(-6.187)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="instagram_1_"
+                            data-name="instagram (1)"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14.568"
+                            height="14.568"
+                            viewBox="0 0 14.568 14.568"
+                          >
+                            <path
+                              id="Path_148"
+                              data-name="Path 148"
+                              d="M213.561,212.28a1.28,1.28,0,1,1-1.28-1.28A1.28,1.28,0,0,1,213.561,212.28Zm0,0"
+                              transform="translate(-204.996 -204.996)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_149"
+                              data-name="Path 149"
+                              d="M126.032,120h-4.325A1.709,1.709,0,0,0,120,121.707v4.325a1.709,1.709,0,0,0,1.707,1.707h4.325a1.709,1.709,0,0,0,1.707-1.707v-4.325A1.709,1.709,0,0,0,126.032,120Zm-2.163,6A2.134,2.134,0,1,1,126,123.87,2.136,2.136,0,0,1,123.87,126Zm2.447-4.154a.427.427,0,1,1,.427-.427A.427.427,0,0,1,126.317,121.85Zm0,0"
+                              transform="translate(-116.586 -116.586)"
+                              fill="#0a264e"
+                            />
+                            <path
+                              id="Path_150"
+                              data-name="Path 150"
+                              d="M10.727,0H3.841A3.846,3.846,0,0,0,0,3.841v6.886a3.846,3.846,0,0,0,3.841,3.841h6.886a3.846,3.846,0,0,0,3.841-3.841V3.841A3.846,3.846,0,0,0,10.727,0Zm1.28,9.447a2.564,2.564,0,0,1-2.561,2.561H5.122A2.564,2.564,0,0,1,2.561,9.447V5.122A2.564,2.564,0,0,1,5.122,2.561H9.447a2.564,2.564,0,0,1,2.561,2.561Zm0,0"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.689"
+                            height="12.748"
+                            viewBox="0 0 15.689 12.748"
+                          >
+                            <path
+                              id="twitter"
+                              d="M14.077,5.429a6.421,6.421,0,0,0,1.612-1.67h0a6.717,6.717,0,0,1-1.853.508,3.2,3.2,0,0,0,1.415-1.777,6.436,6.436,0,0,1-2.04.779,3.216,3.216,0,0,0-5.564,2.2,3.312,3.312,0,0,0,.075.733,9.106,9.106,0,0,1-6.63-3.365,3.216,3.216,0,0,0,.988,4.3,3.179,3.179,0,0,1-1.453-.4v.035A3.232,3.232,0,0,0,3.2,9.934a3.2,3.2,0,0,1-.843.106,2.839,2.839,0,0,1-.609-.055,3.248,3.248,0,0,0,3.005,2.241A6.465,6.465,0,0,1,.769,13.6,6.083,6.083,0,0,1,0,13.554,9.058,9.058,0,0,0,4.934,15a9.092,9.092,0,0,0,9.143-9.568Z"
+                              transform="translate(0 -2.25)"
+                              fill="#0a264e"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div className="container__our__team__card__content__social__links">
+                        <a href="">
+                          <svg
+                            id="google"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="15.176"
+                            height="15.176"
+                            viewBox="0 0 15.176 15.176"
+                          >
+                            <g
+                              id="Group_81"
+                              data-name="Group 81"
+                              transform="translate(0 4.23)"
+                            >
+                              <g id="Group_80" data-name="Group 80">
+                                <path
+                                  id="Path_144"
+                                  data-name="Path 144"
+                                  d="M3.367,144.209.782,142.717a7.538,7.538,0,0,0,.011,6.709l2.574-1.486a4.574,4.574,0,0,1,0-3.731Z"
+                                  transform="translate(0 -142.717)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_83"
+                              data-name="Group 83"
+                              transform="translate(1.278 0)"
+                            >
+                              <g id="Group_82" data-name="Group 82">
+                                <path
+                                  id="Path_145"
+                                  data-name="Path 145"
+                                  d="M54.414,1.86A7.587,7.587,0,0,0,43.127,3.374l2.587,1.494a4.6,4.6,0,0,1,6.656-.84.491.491,0,0,0,.66-.032l1.409-1.409A.5.5,0,0,0,54.414,1.86Z"
+                                  transform="translate(-43.127 0)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_85"
+                              data-name="Group 85"
+                              transform="translate(7.918 6.268)"
+                            >
+                              <g id="Group_84" data-name="Group 84">
+                                <path
+                                  id="Path_146"
+                                  data-name="Path 146"
+                                  d="M274.337,211.921a.5.5,0,0,0-.494-.441h-6.217a.5.5,0,0,0-.495.495v1.978a.5.5,0,0,0,.495.495h3.484a4.654,4.654,0,0,1-1.588,2.075l1.48,2.563a7.749,7.749,0,0,0,3.121-4.337A7.3,7.3,0,0,0,274.337,211.921Z"
+                                  transform="translate(-267.131 -211.479)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                            <g
+                              id="Group_87"
+                              data-name="Group 87"
+                              transform="translate(1.289 10.309)"
+                            >
+                              <g id="Group_86" data-name="Group 86">
+                                <path
+                                  id="Path_147"
+                                  data-name="Path 147"
+                                  d="M51.651,349.3a4.59,4.59,0,0,1-5.588-1.5l-2.576,1.487a7.58,7.58,0,0,0,6.3,3.38,7.432,7.432,0,0,0,3.346-.8Z"
+                                  transform="translate(-43.487 -347.801)"
+                                  fill="#0a264e"
+                                />
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
