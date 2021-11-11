@@ -169,7 +169,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   margin-top: 2em;
-  transition: 300ms;
   font-size: 14px;
   white-space: nowrap;
   padding: 0em 2em;
@@ -411,13 +410,13 @@ body {
   color: $disabled;
   cursor: pointer;
   margin-top: 2em;
-  transition: 300ms;
   font-size: 14px;
   white-space: nowrap;
   padding: 0em 1em;
   min-width: fit-content;
 }
 .join__us__container__content__cta:hover {
+  transition: 200ms ease-in-out;
   background: $blue;
   color: $white;
 }
@@ -532,7 +531,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(10, 38, 78, 0.5);
-  transition: 400ms;
 }
 .container__our__team__card:hover
   .container__our__team__card__content__overlay {
@@ -597,10 +595,10 @@ body {
   margin-top: 0.7em;
   display: flex;
   align-items: center;
-  transition: 300ms;
   cursor: pointer;
 }
 .footer__container__content__right__link a:hover {
+  transition: 200ms ease-in-out;
   color: $primary;
 }
 .footer__container__content__right__link svg {
