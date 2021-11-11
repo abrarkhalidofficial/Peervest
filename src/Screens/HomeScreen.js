@@ -43,7 +43,7 @@ export default function HomeScreen() {
         </div>
         <div className="startups__wrapper">
           <div className="container__startups">
-            <div to="/start-up" className="container__startups__card">
+            <Link to="/start-up" className="container__startups__card">
               <div className="container__startups__card__left">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -193,17 +193,12 @@ export default function HomeScreen() {
                   </div>
                 </div>
               </div>
-              <div className="container__startups__card__right">
-                <div className="container__startups__card__right__heading">
-                  Connect startups with potential investors and secure initial
-                  meetings to pitch the venture and raise capital.
-                </div>
-                <Link className="container__startups__card__right__btn">
-                  Become a Part
-                </Link>
+              <div className="container__startups__card__right__heading">
+                Connect startups with potential investors and secure initial
+                meetings to pitch the venture and raise capital.
               </div>
-            </div>
-            <div to="/co-founder" className="container__startups__card">
+            </Link>
+            <Link to="/co-founder" className="container__startups__card">
               <div className="container__startups__card__left">
                 <svg
                   id="Group_14"
@@ -273,16 +268,12 @@ export default function HomeScreen() {
                   </div>
                 </div>
               </div>
-              <div className="container__startups__card__right">
-                <div className="container__startups__card__right__heading">
-                  Connect startups with potential investors and secure initial
-                  meetings to pitch the venture and raise capital.
-                </div>
-                <Link className="container__startups__card__right__btn">
-                  Become a Part
-                </Link>
+
+              <div className="container__startups__card__right__heading">
+                Connect startups with potential investors and secure initial
+                meetings to pitch the venture and raise capital.
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div
@@ -292,6 +283,39 @@ export default function HomeScreen() {
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">
+              <div className="milestone__container__content__card milestone__container__content__card__border">
+                <div className="milestone__container__content__card__value">
+                  56
+                </div>
+                <div className="milestone__container__content__card__type">
+                  Arranged
+                </div>
+                <div className="milestone__container__content__card__heading">
+                  Meetings
+                </div>
+                <div className="milestone__container__content__card__svg">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="248.75"
+                    height="208.031"
+                    viewBox="0 0 248.75 208.031"
+                  >
+                    <g
+                      id="Layer_2"
+                      data-name="Layer 2"
+                      transform="translate(-0.041 0.001)"
+                    >
+                      <g id="Layer_1" data-name="Layer 1">
+                        <path
+                          id="Path_41"
+                          data-name="Path 41"
+                          d="M47.07,86.51c.34-17.22,8-29.91,23.17-37.94C55,34.38,59.48,15.89,68.94,7.37,80.22-2.79,96.85-2.4,107,8.25s11.35,28-2.48,40.33c14.47,7.6,22.12,19.61,23.17,36.31h56.82c19.68,0,36.64,6.56,49.34,21.9,15.52,18.75,19.06,40.13,10.1,62.62-8.61,21.61-25.22,34.27-48.37,37.89A69.383,69.383,0,0,1,185,208q-61.77.06-123.54,0c-29.07,0-54.76-20.81-60.2-48.71-5.73-29.34,9.14-57.87,36.22-69.38C40.49,88.59,43.7,87.68,47.07,86.51ZM207.79,194c24.06-9.75,36.81-38.34,28.71-63.35a52.81,52.81,0,0,0-51.17-36.09c-40.73.34-81.47.07-122.2.12a73.441,73.441,0,0,0-10.26.75c-28.89,4.17-49,34.1-42.12,62.46,6,24.61,25.59,40.24,51.64,40.62,20.75.31,41.51,0,62.27.1,2.11,0,2.89-.6,3-2.78.6-11.22,5.38-20.46,13.81-27.77a107.115,107.115,0,0,1,8.79-6.26c-13.85-12.9-11.57-30.22-2.06-40.07a27.14,27.14,0,0,1,37.57-1.36,26.8,26.8,0,0,1,9,18c.84,9.5-3,17.2-9.91,23.5C200.79,173.22,200.79,173.22,207.79,194Zm-9.57,3.69c-1.05-12.43-6.62-21.29-17.1-26.5-10.64-5.29-21.34-4.53-31.11,2.35-8.41,5.93-12.81,14.24-13,25.15,20.56-.63,40.77.77,61.21-1.02ZM56.92,84.84h60.94c-.24-11.54-5.3-20.15-14.64-25.83-10.63-6.47-21.82-6.37-32.31.36C61.81,65.2,56.91,73.77,56.92,84.84Zm48.17-57.55A17.65,17.65,0,0,0,87.73,9.53a17.92,17.92,0,0,0-18,17.6A17.9,17.9,0,0,0,87.57,44.88a17.6,17.6,0,0,0,17.52-17.59Zm62.45,130.87c10.11,0,18-7.67,17.84-17.49A17.78,17.78,0,0,0,167.54,123a17.54,17.54,0,0,0-17.4,17.35c-.07,10.13,7.39,17.78,17.4,17.81Z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
               <div className="milestone__container__content__card milestone__container__content__card__border">
                 <div className="milestone__container__content__card__value">
                   56

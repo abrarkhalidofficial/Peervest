@@ -175,23 +175,7 @@ body {
   padding: 0em 2em;
   min-width: fit-content;
 }
-.container__startups__card__right__btn {
-  border: 1.5px solid $blue;
-  height: 45px;
-  border-radius: 50px;
-  background: transparent;
-  color: $blue;
-  cursor: pointer;
-  transition: 300ms;
-  font-size: 13px;
-  white-space: nowrap;
-  padding: 1em 1.5em;
-  min-width: fit-content;
-  text-decoration: none;
-}
-.container__startups__card__right {
-  margin: 1em 0em;
-}
+
 .homepage__main__container__jumbotron__wrapper__content__cta:hover {
   transition: 300ms ease-in-out;
   background: $white;
@@ -268,7 +252,7 @@ body {
   font-size: 14px;
   color: $textColor;
   width: 100%;
-  margin-bottom: 3em;
+  margin: 2em 0em;
 }
 .milestone__container {
   display: flex;
@@ -293,7 +277,7 @@ body {
   width: 100%;
 }
 .milestone__container__content__card {
-  width: 28%;
+  width: 22%;
   min-height: 240px;
   padding: 2em;
   padding-top: 7em;
@@ -373,10 +357,6 @@ body {
 .container__startups__card:hover .container__startups__card__right__btn {
   color: $white;
 }
-.container__startups__card:hover .container__startups__card__right__btn {
-  color: $white;
-  border-color: $white;
-}
 .join__us__container {
   width: 100%;
   height: fit-content;
@@ -444,7 +424,7 @@ body {
 .container__our__team {
   margin-top: 4em;
   display: flex;
-  min-height: 950px;
+  min-height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -627,6 +607,7 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 6px;
+  color: #fff;
 }
 .footer__container__content__right__link a {
   font-size: 14px;
