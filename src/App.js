@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import AboutUsScreen from "./Screens/AboutUsScreen";
 import CoFounderScreen from "./Screens/CoFounderScreen";
 import ContactScreen from "./Screens/ContactScreen";
 import HomeScreen from "./Screens/HomeScreen";
@@ -21,6 +22,9 @@ export default function App() {
         </Route>
         <Route path="/investor">
           <InvestorScreen />
+        </Route>
+        <Route path="/about-us">
+          <AboutUsScreen />
         </Route>
         <Route path="/contact">
           <ContactScreen />
