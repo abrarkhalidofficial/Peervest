@@ -7,6 +7,7 @@ import container__our__team__wrapper__entry__img__1 from "../Assets/container__o
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
 import aboutUsSvg from "../Assets/aboutUsSvg.svg";
+import ourVisionSvg from "../Assets/ourVisionSvg.svg";
 import { Link } from "react-router-dom";
 
 export default function AboutUsScreen() {
@@ -65,10 +66,16 @@ export default function AboutUsScreen() {
               </div>
               <div className="about__us__content__right__buttons">
                 <div className="about__us__content__right__buttons__left">
-                  <Link className="about__us__content__right__buttons__left__cta">
+                  <Link
+                    to="/contact"
+                    className="about__us__content__right__buttons__left__cta"
+                  >
                     Sign Up
                   </Link>
-                  <Link className="about__us__content__right__buttons__left__cta">
+                  <Link
+                    to="/contact"
+                    className="about__us__content__right__buttons__left__cta"
+                  >
                     Contact us
                   </Link>
                 </div>
@@ -227,8 +234,38 @@ export default function AboutUsScreen() {
         </div>
         <div className="our__vision__container">
           <div className="our__vision__container__content">
-            <div className="our__vision__container__content__left"></div>
-            <div className="our__vision__container__content__right"></div>
+            <div className="our__vision__container__content__left">
+              <div className="our__vision__container__content__left__heading">
+                Our Vision
+              </div>
+              <div className="our__vision__container__content__left__info">
+                My vision is to imtroduce crowdfunding as a safe and viable
+                fundeaising option for Pakistan's start-ups. Having closely
+                worked with financially constrained startups and the investor
+                fraternity, I found the equation off balanced with a large
+                influx of needy startups and only a handful of angels or VC's
+                that could put in their money. My background in accounting and
+                finance from IBA and the mentorship i recieved there gave me a
+                sound understanding of the investment and funding culture in
+                Pakistan's start-up ecosystem. PeerVest Global is the outcome of
+                the thought process that started at IBA, and is today a
+                functioning platform, always evolving. We're here to hand hold
+                all tech startups and investors in their journey to succeed.
+              </div>
+              <Link
+                to="/contact"
+                className="homepage__main__container__jumbotron__wrapper__content__cta"
+              >
+                Join Us Now
+              </Link>
+            </div>
+            <div className="our__vision__container__content__right">
+              <img
+                src={ourVisionSvg}
+                alt="ourVisionSvg"
+                className="our__vision__container__content__right__img"
+              />
+            </div>
           </div>
         </div>
         <div className="container">

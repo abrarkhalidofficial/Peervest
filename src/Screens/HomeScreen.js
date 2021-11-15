@@ -35,9 +35,12 @@ export default function HomeScreen() {
                 For startups looking for pre-seed, seed, and growth stage
                 funding
               </div>
-              <button className="homepage__main__container__jumbotron__wrapper__content__cta">
+              <Link
+                to="/contact"
+                className="homepage__main__container__jumbotron__wrapper__content__cta"
+              >
                 Become a Part
-              </button>
+              </Link>
             </div>
           </div>
         </div>
