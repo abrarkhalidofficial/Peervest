@@ -3,8 +3,10 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import AboutUsScreen from "./Screens/AboutUsScreen";
 import CoFounderScreen from "./Screens/CoFounderScreen";
 import ContactScreen from "./Screens/ContactScreen";
+import FaqScreen from "./Screens/FaqScreen";
 import HomeScreen from "./Screens/HomeScreen";
 import InvestorScreen from "./Screens/InvestorScreen";
+import ServicesScreen from "./Screens/ServicesScreen";
 import StartUpScreen from "./Screens/StartUpScreen";
 
 export default function App() {
@@ -25,6 +27,12 @@ export default function App() {
         </Route>
         <Route path="/about-us">
           <AboutUsScreen />
+        </Route>
+        <Route path="/services">
+          <ServicesScreen />
+        </Route>
+        <Route path="/faq">
+          <FaqScreen />
         </Route>
         <Route path="/contact">
           <ContactScreen />
