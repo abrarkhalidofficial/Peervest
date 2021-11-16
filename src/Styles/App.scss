@@ -1187,6 +1187,9 @@ input:-webkit-autofill:active {
   width: 300px;
 }
 @media (max-width: 1440px) {
+  .container__why__choose__us__wrapper__content {
+    width: 90%;
+  }
   .milestone__container__content__card {
     width: 30%;
   }
@@ -1198,6 +1201,9 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 1350px) {
+  .container__why__choose__us__wrapper__content__right__img {
+    width: 450px;
+  }
   .our__vision__container__content {
     width: 90%;
   }
@@ -1246,6 +1252,18 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 1000px) {
+  .container__why__choose__us__wrapper__content__left {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__why__choose__us__wrapper__content__right {
+    display: none;
+  }
   .milestone__wrapper {
     height: fit-content;
     padding: 0px;
