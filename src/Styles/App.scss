@@ -431,10 +431,19 @@ body {
 .container__our__team {
   margin-top: 4em;
   display: flex;
-  min-height: 60vh;
+  min-height: 40vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.container__how__work {
+  margin-top: 4em;
+  display: flex;
+  min-height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
 }
 .container__our__team__heading {
   font-size: 32px;
@@ -594,6 +603,9 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: $white;
+}
+.footer__container__content__logo {
+  width: 180px;
 }
 .footer__container__content__link {
   margin-top: 0.7em;

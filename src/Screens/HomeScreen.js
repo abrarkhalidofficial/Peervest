@@ -458,7 +458,7 @@ export default function HomeScreen() {
           </div>
         </div>
         <div className="container">
-          <div className="container__our__team">
+          <div className="container__how__work">
             <div className="container__our__team__heading">
               How does Peervest work?
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import footerLogo from "../Assets/footerLogo.png";
 
 export default function Footer() {
   return (
@@ -7,70 +8,11 @@ export default function Footer() {
       <div className="footer__container">
         <div className="footer__container__content">
           <div className="footer__container__content__quick__links">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="170.149"
-              height="50.701"
-              viewBox="0 0 199.149 56.701"
-            >
-              <g
-                id="Group_133"
-                data-name="Group 133"
-                transform="translate(1422.524 -1011.94)"
-              >
-                <text
-                  id="PEERWEST"
-                  transform="translate(-1352.375 1039.94)"
-                  fill="#dbdbdb"
-                  font-size="30"
-                  font-family="Rajdhani-SemiBold, Rajdhani"
-                  font-weight="600"
-                >
-                  <tspan x="0" y="0">
-                    PEERWEST
-                  </tspan>
-                </text>
-                <text
-                  id="GLOBAL"
-                  transform="translate(-1352.374 1060.641)"
-                  fill="#dbdbdb"
-                  font-size="23"
-                  font-family="Rajdhani-Regular, Rajdhani"
-                >
-                  <tspan x="0" y="0">
-                    GLOBAL
-                  </tspan>
-                </text>
-                <g
-                  id="Group_3"
-                  data-name="Group 3"
-                  transform="translate(-1422.524 1011.94)"
-                >
-                  <g id="Group_2" data-name="Group 2">
-                    <g
-                      id="Group_1"
-                      data-name="Group 1"
-                      transform="translate(0 0.014)"
-                    >
-                      <path
-                        id="Path_1"
-                        data-name="Path 1"
-                        d="M-1393.605,1025.945a1.2,1.2,0,0,0,1.033-1.793c-1.4-2.433-2.675-4.659-4.006-6.853a1.814,1.814,0,0,0-1.33-.706c-7.933-.037-15.865-.021-23.8-.009a4.417,4.417,0,0,0-.817.229l29.437,51.006a1.2,1.2,0,0,0,2.069,0c1.42-2.445,2.778-4.767,4.038-7.141.212-.4-.228-1.259-.541-1.806q-8.944-15.579-17.933-31.133l-.009-.016a1.193,1.193,0,0,1,1.038-1.784Z"
-                        transform="translate(1422.524 -1016.57)"
-                        fill="#d39844"
-                      />
-                    </g>
-                    <path
-                      id="Path_2"
-                      data-name="Path 2"
-                      d="M-1351.546,1018.245a1.126,1.126,0,0,0-.97-1.687c-2.934-.01-5.637-.029-8.337.067-.45.016-.969.834-1.287,1.379-3.552,6.1-7.07,12.215-10.6,18.325l-.008.014a1.122,1.122,0,0,1-1.933,0c-.986-1.66-1.941-3.246-2.786-4.89a3.031,3.031,0,0,0-3.27-1.974c-2.157.136-4.325.087-6.67.06a1.126,1.126,0,0,0-.984,1.688l13.706,23.739a1.126,1.126,0,0,0,1.948,0Z"
-                      transform="translate(1411.676 -1016.55)"
-                      fill="#d39844"
-                    />
-                  </g>
-                </g>
-              </g>
-            </svg>
+            <img
+              src={footerLogo}
+              alt=""
+              className="footer__container__content__logo"
+            />
           </div>
           <div className="footer__container__content__quick__links">
             <div className="footer__container__content__quick__links__heading">
