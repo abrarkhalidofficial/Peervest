@@ -132,7 +132,6 @@ export default function ContactScreen() {
             </form>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );
