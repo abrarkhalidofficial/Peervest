@@ -157,7 +157,8 @@ body {
 .homepage__main__container__jumbotron__wrapper__content__info {
   font-size: 14px;
   color: $white;
-  max-width: 35%;
+  width: 100%;
+  max-width: 450px;
   margin-top: 1em;
 }
 .homepage__main__container__jumbotron__wrapper__content__cta {
@@ -567,55 +568,51 @@ body {
   color: $textColor;
 }
 .footer__container {
-  padding: 4em 6em;
+  padding: 4em 2em;
   width: 100%;
   height: fit-content;
   background-color: rgba(0, 0, 0, 0.9);
   background-image: url(../Assets/startup__card__img.png);
   background-blend-mode: multiply;
 }
-.footer__container__content {
-  display: flex;
-  flex-direction: row;
-}
 .footer__container__content__left {
   width: 30%;
   display: flex;
-  justify-content: center;
 }
-.footer__container__content__right {
-  flex: 1;
+.footer__container__content {
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
 }
-.footer__container__content__right__quick__links {
+.footer__container__content__quick__links {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
 }
-.footer__container__content__right__quick__links__heading {
+.footer__container__content__quick__links__heading {
   font-size: 16px;
   font-weight: bold;
   color: $white;
 }
-.footer__container__content__right__link {
+.footer__container__content__link {
   margin-top: 0.7em;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.footer__container__content__right__link a:hover {
+.footer__container__content__link a:hover {
   transition: 200ms ease-in-out;
   color: $primary;
 }
-.footer__container__content__right__link svg {
+.footer__container__content__link svg {
   width: 16px;
   height: 16px;
   margin-right: 6px;
   color: #fff;
 }
-.footer__container__content__right__link a {
+.footer__container__content__link a {
   font-size: 14px;
   text-decoration: none;
   color: $white;
@@ -1367,6 +1364,16 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 1350px) {
+  .footer__container__content__quick__links {
+    margin-top: 2em;
+    width: 50%;
+  }
+  .footer__container__content {
+    flex-wrap: wrap;
+  }
+  .footer__container__content {
+    flex-wrap: wrap;
+  }
   .container__why__choose__us__wrapper__content__right__img {
     width: 450px;
   }
@@ -1519,6 +1526,9 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 900px) {
+  .footer__container__content__quick__links {
+    width: 300px;
+  }
   .about__us__content__left__img {
     width: 400px;
   }
@@ -1650,6 +1660,12 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 650px) {
+  .about__us__content__left__img {
+    display: none;
+  }
+  .footer__container__content__quick__links {
+    width: 400px;
+  }
   .our__vision__container__content__right {
     display: none;
   }
@@ -1699,7 +1715,7 @@ input:-webkit-autofill:active {
   }
   .homepage__main__container__jumbotron__wrapper__content__info {
     text-align: center;
-    width: 100%;
+    width: 80%;
   }
   .join__us__container__content__heading {
     width: 100%;
