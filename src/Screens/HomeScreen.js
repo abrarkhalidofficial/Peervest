@@ -1106,7 +1106,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
