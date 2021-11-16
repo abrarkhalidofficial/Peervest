@@ -909,7 +909,7 @@ export default function AboutUsScreen() {
             </div>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
