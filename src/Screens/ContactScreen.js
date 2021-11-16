@@ -5,6 +5,7 @@ import InputField from "../Components/InputField";
 import InputTextArea from "../Components/InputTextArea";
 import { Facebook, Instagram, Linkedin, Twitter } from "react-feather";
 import ContactInput from "../Components/ContactInput";
+import Footer from "../Components/Footer";
 
 export default function ContactScreen() {
   return (
@@ -131,6 +132,7 @@ export default function ContactScreen() {
             </form>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
