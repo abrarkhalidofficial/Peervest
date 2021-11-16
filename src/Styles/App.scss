@@ -1363,7 +1363,6 @@ input:-webkit-autofill:active {
   width: 100%;
   max-width: 1360px;
   margin: 0em auto;
-  margin-bottom: 8em;
 }
 .partners__container__left {
   width: 50%;
@@ -1408,6 +1407,31 @@ input:-webkit-autofill:active {
 }
 .client__img {
   width: 200px;
+}
+.how__peervest__work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1360px;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+.how__peervest__work__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+.how__peervest__work__card svg {
+  width: 100px;
+  height: 100px;
+}
+.how__peervest__work__card span {
+  margin-top: 1em;
+  font-size: 16px;
+  color: #081b35;
+  font-weight: bold;
 }
 @media (max-width: 1440px) {
   .container__why__choose__us__wrapper__content {
@@ -1584,11 +1608,18 @@ input:-webkit-autofill:active {
   .nav__header__btn {
     margin-left: -30px;
   }
+  .how__peervest__work__line {
+    display: none;
+  }
+  .how__peervest__work {
+    justify-content: center;
+  }
 }
 @media (max-width: 900px) {
   .partners__container {
     flex-direction: column;
   }
+
   .partners__container__right {
     margin-top: 2em;
     width: 80%;
