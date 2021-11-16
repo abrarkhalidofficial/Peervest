@@ -84,10 +84,7 @@ export default function AboutUsScreen() {
             </div>
           </div>
         </div>
-        <div
-          className="milestone__wrapper"
-          style={{ minHeight: "fit-content" }}
-        >
+        <div className="milestone__wrapper">
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">

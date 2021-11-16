@@ -1,13 +1,12 @@
 import React from "react";
 import main__background from "../Assets/main__background.jpg";
-import join__us__background from "../Assets/join__us__background.png";
 import founderPic from "../Assets/founderPic.png";
-import visionPic from "../Assets/visionPic.png";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
+import whyChooseUsSvg from "../Assets/whyChooseUsSvg.svg";
 import { Link } from "react-router-dom";
 
 export default function HomeScreen() {
@@ -279,14 +278,11 @@ export default function HomeScreen() {
             </Link>
           </div>
         </div>
-        <div
-          className="milestone__wrapper"
-          style={{ minHeight: "fit-content" }}
-        >
+        <div className="milestone__wrapper">
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">
-              <div className="milestone__container__content__card milestone__container__content__card__border">
+              <div className="milestone__container__content__card ">
                 <div className="milestone__container__content__card__value">
                   56
                 </div>
@@ -319,7 +315,7 @@ export default function HomeScreen() {
                   </svg>
                 </div>
               </div>
-              <div className="milestone__container__content__card milestone__container__content__card__border">
+              <div className="milestone__container__content__card ">
                 <div className="milestone__container__content__card__value">
                   56
                 </div>
@@ -352,7 +348,7 @@ export default function HomeScreen() {
                   </svg>
                 </div>
               </div>
-              <div className="milestone__container__content__card milestone__container__content__card__border ">
+              <div className="milestone__container__content__card  ">
                 <div className="milestone__container__content__card__value">
                   49
                 </div>
@@ -390,7 +386,7 @@ export default function HomeScreen() {
                   </svg>
                 </div>
               </div>
-              <div className="milestone__container__content__card milestone__container__content__card__border">
+              <div className="milestone__container__content__card ">
                 <div className="milestone__container__content__card__value">
                   59
                 </div>
@@ -431,26 +427,38 @@ export default function HomeScreen() {
         <div className="container__why__choose__us">
           <div className="container__why__choose__us__wrapper">
             <div className="container__why__choose__us__wrapper__content">
-              <div className="container__why__choose__us__wrapper__content__heading">
-                Why Choose Us
+              <div className="container__why__choose__us__wrapper__content__left">
+                <div className="container__why__choose__us__wrapper__content__left__heading">
+                  Why Choose Us
+                </div>
+                <div className="container__why__choose__us__wrapper__content__left__heading__info">
+                  My vision is to imtroduce crowdfunding as a safe and viable
+                  fundeaising option for Pakistan's start-ups. Having closely
+                  worked with financially constrained startups and the investor
+                  fraternity, I found the equation off balanced with a large
+                  influx of needy startups and only a handful of angels or VC's
+                  that could put in their money. My background in accounting and
+                  finance from IBA and the mentorship i recieved there gave me a
+                  sound understanding of the investment and funding culture in
+                  Pakistan's start-up ecosystem. PeerVest Global is the outcome
+                  of the thought process that started at IBA, and is today a
+                  functioning platform, always evolving. We're here to hand hold
+                  all tech startups and investors in their journey to succeed.
+                </div>
+                <Link
+                  to="/contact"
+                  className="homepage__main__container__jumbotron__wrapper__content__cta"
+                >
+                  Join Us Now
+                </Link>
               </div>
-              <div className="container__why__choose__us__wrapper__content__info">
-                My vision is to imtroduce crowdfunding as a safe and viable
-                fundeaising option for Pakistan's start-ups. Having closely
-                worked with financially constrained startups and the investor
-                fraternity, I found the equation off balanced with a large
-                influx of needy startups and only a handful of angels or VC's
-                that could put in their money. My background in accounting and
-                finance from IBA and the mentorship i recieved there gave me a
-                sound understanding of the investment and funding culture in
-                Pakistan's start-up ecosystem. PeerVest Global is the outcome of
-                the thought process that started at IBA, and is today a
-                functioning platform, always evolving. We're here to hand hold
-                all tech startups and investors in their journey to succeed.
+              <div className="container__why__choose__us__wrapper__content__right">
+                <img
+                  src={whyChooseUsSvg}
+                  alt="whyChooseUsSvg"
+                  className="container__why__choose__us__wrapper__content__right__img"
+                />
               </div>
-              <button className="homepage__main__container__jumbotron__wrapper__content__cta">
-                Become a Part
-              </button>
             </div>
           </div>
         </div>
@@ -1098,7 +1106,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
