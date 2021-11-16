@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Footer from "./Components/Footer";
 import AboutUsScreen from "./Screens/AboutUsScreen";
 import CoFounderScreen from "./Screens/CoFounderScreen";
 import ContactScreen from "./Screens/ContactScreen";
@@ -38,6 +39,7 @@ export default function App() {
           <ContactScreen />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
