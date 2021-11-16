@@ -6,6 +6,7 @@ import Footer from "../Components/Footer";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
+import partnerImg from "../Assets/partnerImg.jpg";
 import whyChooseUsSvg from "../Assets/whyChooseUsSvg.svg";
 import { Link } from "react-router-dom";
 
@@ -278,6 +279,7 @@ export default function HomeScreen() {
             </Link>
           </div>
         </div>
+
         <div className="milestone__wrapper">
           <div className="milestone__container">
             <div className="milestone__container__heading">Milestones</div>
@@ -423,7 +425,33 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
+        <div className="partners__container">
+          <img
+            src={partnerImg}
+            alt="partnerImg"
+            className="partners__container__left"
+          />
 
+          <div className="partners__container__right">
+            <div className="partners__container__right__heading">
+              Our Partner
+            </div>
+            <div className="partners__container__right__info">
+              My vision is to imtroduce crowdfunding as a safe and viable
+              fundeaising option for Pakistan's start-ups. Having closely worked
+              with financially constrained startups and the investor fraternity,
+              I found the equation off balanced with a large influx of needy
+              startups and only a handful of angels or VC's that could put in
+              their money. My background in accounting and finance from IBA and
+              the mentorship i recieved there gave me a sound understanding of
+              the investment and funding culture in Pakistan's start-up
+              ecosystem. PeerVest Global is the outcome of the thought process
+              that started at IBA, and is today a functioning platform, always
+              evolving. We're here to hand hold all tech startups and investors
+              in their journey to succeed.
+            </div>
+          </div>
+        </div>
         <div className="container__why__choose__us">
           <div className="container__why__choose__us__wrapper">
             <div className="container__why__choose__us__wrapper__content">
