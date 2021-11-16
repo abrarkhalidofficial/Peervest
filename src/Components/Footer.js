@@ -153,8 +153,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer__copywrite__section">
-        <a href="/">peerwest.com </a>
-        <span> All Rights Reserved</span>
+        <span> Developed By</span>{" "}
+        <a href="https://www.dsmeglobal.com/" target="_blank">
+          DSMEGlobal.com
+        </a>
       </div>
     </>
   );
