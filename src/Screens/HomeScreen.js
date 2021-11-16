@@ -7,6 +7,11 @@ import container__our__team__wrapper__entry__img__1 from "../Assets/container__o
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
 import partnerImg from "../Assets/partnerImg.jpg";
+import client1 from "../Assets/client1.jpg";
+import client2 from "../Assets/client2.jpg";
+import client3 from "../Assets/client3.jpg";
+import client4 from "../Assets/client1.jpg";
+import client5 from "../Assets/client1.jpg";
 import whyChooseUsSvg from "../Assets/whyChooseUsSvg.svg";
 import { Link } from "react-router-dom";
 
@@ -1131,6 +1136,18 @@ export default function HomeScreen() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="container__our__team">
+            <div className="container__our__team__heading">Our Clients</div>
+            <div className="container__our__client">
+              <img src={client1} alt="client__img" className="client__img" />
+              <img src={client2} alt="client__img" className="client__img" />
+              <img src={client3} alt="client__img" className="client__img" />
+              <img src={client4} alt="client__img" className="client__img" />
+              <img src={client5} alt="client__img" className="client__img" />
             </div>
           </div>
         </div>

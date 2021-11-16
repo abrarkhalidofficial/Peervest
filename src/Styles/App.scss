@@ -1392,6 +1392,18 @@ input:-webkit-autofill:active {
   cursor: pointer;
   padding: 0.2em 0em;
 }
+.container__our__client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1360px;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+.client__img {
+  width: 200px;
+}
 @media (max-width: 1440px) {
   .container__why__choose__us__wrapper__content {
     width: 90%;
@@ -1475,6 +1487,9 @@ input:-webkit-autofill:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .container__our__client {
+    justify-content: center;
   }
 
   .container__why__choose__us__wrapper__content__right {
