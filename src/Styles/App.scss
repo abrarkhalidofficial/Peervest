@@ -252,14 +252,13 @@ body {
 }
 .milestone__wrapper {
   width: 100%;
-  height: 60vh;
   justify-content: center;
   align-items: center;
   margin: 0em auto;
   background: #e9e9e9;
   background-image: url(../Assets/pattern.png);
   background-blend-mode: soft-light;
-  margin-bottom: 2em;
+  margin-bottom: 8em;
   padding: 2em 0em;
 }
 .milestone__container {
@@ -451,8 +450,6 @@ body {
 .container__why__choose__us {
   display: flex;
   width: 100%;
-  height: fit-content;
-  min-height: 80vh;
   background-color: $blue;
   background-image: url(../Assets/startup__card__img.png);
   background-blend-mode: multiply;
@@ -640,12 +637,15 @@ body {
 }
 .container__why__choose__us__wrapper__content {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  position: relative;
 }
 .container__why__choose__us__wrapper__content__left {
   width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .container__why__choose__us__wrapper__content__left__heading {
   font-size: 32px;
@@ -659,12 +659,13 @@ body {
 }
 .container__why__choose__us__wrapper__content__right {
   width: 50%;
-
   display: flex;
   justify-content: flex-end;
 }
 .container__why__choose__us__wrapper__content__right__img {
-  width: 600px;
+  position: absolute;
+  width: 800px;
+  bottom: -10px;
 }
 .start__up__container {
   display: flex;
@@ -1349,6 +1350,33 @@ input:-webkit-autofill:active {
   font-size: 14px;
   color: #020810;
 }
+.partners__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0em auto;
+  margin-bottom: 8em;
+}
+.partners__container__left {
+  width: 50%;
+  max-width: 400px;
+  margin-right: 2em;
+}
+.partners__container__right {
+  width: 60%;
+}
+.partners__container__right__heading {
+  font-size: 30px;
+  color: #081b35;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.partners__container__right__info {
+  font-size: 14px;
+  color: #020810;
+}
 @media (max-width: 1440px) {
   .container__why__choose__us__wrapper__content {
     width: 90%;
@@ -1375,7 +1403,7 @@ input:-webkit-autofill:active {
     flex-wrap: wrap;
   }
   .container__why__choose__us__wrapper__content__right__img {
-    width: 450px;
+    width: 600px;
   }
   .our__vision__container__content {
     width: 90%;
@@ -1526,6 +1554,13 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 900px) {
+  .partners__container {
+    flex-direction: column;
+  }
+  .partners__container__right {
+    margin-top: 2em;
+    width: 80%;
+  }
   .footer__container__content__quick__links {
     width: 300px;
   }
