@@ -1377,6 +1377,20 @@ input:-webkit-autofill:active {
   font-size: 14px;
   color: #020810;
 }
+.footer__copywrite__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: $primary;
+  font-size: 16px;
+}
+.footer__copywrite__section a {
+  color: $primary;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.2em 0em;
+}
 @media (max-width: 1440px) {
   .container__why__choose__us__wrapper__content {
     width: 90%;
