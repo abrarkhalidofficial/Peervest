@@ -431,7 +431,7 @@ body {
 .container__our__team {
   margin-top: 4em;
   display: flex;
-  min-height: 90vh;
+  min-height: 60vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -450,6 +450,7 @@ body {
 }
 .container__why__choose__us {
   display: flex;
+  height: 70vh;
   width: 100%;
   background-color: $blue;
   background-image: url(../Assets/startup__card__img.png);
@@ -638,8 +639,8 @@ body {
 }
 .container__why__choose__us__wrapper__content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  position: relative;
 }
 .container__why__choose__us__wrapper__content__left {
   width: 50%;
@@ -654,6 +655,12 @@ body {
   font-weight: bold;
   margin-bottom: 1em;
 }
+.container__why__choose__us__wrapper__content__left__sub__heading {
+  font-size: 16px;
+  color: $white;
+  font-weight: bold;
+  margin: 0.5em 0em;
+}
 .container__why__choose__us__wrapper__content__left__heading__info {
   font-size: 14px;
   color: $white;
@@ -661,12 +668,10 @@ body {
 .container__why__choose__us__wrapper__content__right {
   width: 50%;
   display: flex;
-  justify-content: flex-end;
 }
 .container__why__choose__us__wrapper__content__right__img {
-  position: absolute;
+  margin-bottom: -10em;
   width: 800px;
-  bottom: -10px;
 }
 .start__up__container {
   display: flex;
@@ -1428,9 +1433,6 @@ input:-webkit-autofill:active {
   }
   .footer__container__content {
     flex-wrap: wrap;
-  }
-  .container__why__choose__us__wrapper__content__right__img {
-    width: 600px;
   }
   .our__vision__container__content {
     width: 90%;

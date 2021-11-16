@@ -462,28 +462,34 @@ export default function HomeScreen() {
             <div className="container__why__choose__us__wrapper__content">
               <div className="container__why__choose__us__wrapper__content__left">
                 <div className="container__why__choose__us__wrapper__content__left__heading">
-                  Why Choose Us
+                  Why Choose Us?
+                </div>
+                <div className="container__why__choose__us__wrapper__content__left__sub__heading">
+                  Increased Chances of Raising Investment
                 </div>
                 <div className="container__why__choose__us__wrapper__content__left__heading__info">
-                  My vision is to imtroduce crowdfunding as a safe and viable
-                  fundeaising option for Pakistan's start-ups. Having closely
-                  worked with financially constrained startups and the investor
-                  fraternity, I found the equation off balanced with a large
-                  influx of needy startups and only a handful of angels or VC's
-                  that could put in their money. My background in accounting and
-                  finance from IBA and the mentorship i recieved there gave me a
-                  sound understanding of the investment and funding culture in
-                  Pakistan's start-up ecosystem. PeerVest Global is the outcome
-                  of the thought process that started at IBA, and is today a
-                  functioning platform, always evolving. We're here to hand hold
-                  all tech startups and investors in their journey to succeed.
+                  Through our due diligence process and investor readiness
+                  services, we ensure your startup is optimized to impress
+                  investors.
+                  <br />
+                  We match your startup to relevant investors looking for
+                  startups in the same industry or stage.
                 </div>
-                <Link
-                  to="/contact"
-                  className="homepage__main__container__jumbotron__wrapper__content__cta"
-                >
-                  Join Us Now
-                </Link>
+                <div className="container__why__choose__us__wrapper__content__left__sub__heading">
+                  Small Ticket Size
+                </div>
+                <div className="container__why__choose__us__wrapper__content__left__heading__info">
+                  The small ticket size allows investors to put in small chunks
+                  of funding to keep your startup afloat while mitigating their
+                  own risk.
+                </div>
+                <div className="container__why__choose__us__wrapper__content__left__sub__heading">
+                  Global Investor Pool
+                </div>
+                <div className="container__why__choose__us__wrapper__content__left__heading__info">
+                  Visibility among the global Angel Investor fraternity. <br />
+                  Higher chances of investment through a diverse investor pool.
+                </div>
               </div>
               <div className="container__why__choose__us__wrapper__content__right">
                 <img
