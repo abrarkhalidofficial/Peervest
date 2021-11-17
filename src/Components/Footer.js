@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import footerLogo from "../Assets/footerLogo.png";
+import footerLogo from "../Assets/footerLogo.svg";
 
 export default function Footer() {
   return (
@@ -155,7 +155,7 @@ export default function Footer() {
       <div className="footer__copywrite__section">
         <span> Developed By</span>{" "}
         <a href="https://www.dsmeglobal.com/" target="_blank">
-          DSMEGlobal.com
+          DSME Global Links
         </a>
       </div>
     </>

@@ -2,7 +2,6 @@ import React from "react";
 import main__background from "../Assets/main__background.jpg";
 import founderPic from "../Assets/founderPic.png";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
