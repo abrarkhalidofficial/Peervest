@@ -693,6 +693,8 @@ body {
 }
 .start__up__container__heading {
   width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -709,12 +711,19 @@ body {
 .start__up__container__info {
   font-size: 16px;
   color: $textColor;
-  margin-bottom: 3em;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: column;
 }
 .start__up__container__form {
   background-color: #f1f2ff;
   border-radius: 20px;
-  padding-top: 1em;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
 }
 .start__up__container__form__input__box {
   padding: 2em 3em;
@@ -843,6 +852,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 .contact__container__content {
@@ -1438,8 +1448,8 @@ input:-webkit-autofill:active {
   padding: 1em;
 }
 .how__peervest__work__card svg {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .how__peervest__work__card span {
   margin-top: 1em;

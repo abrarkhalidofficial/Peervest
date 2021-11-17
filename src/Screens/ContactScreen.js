@@ -53,7 +53,7 @@ export default function ContactScreen() {
               </div>
               <div className="contact__container__form__info">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the
+                industry. Lorem Ipsum has been the.
               </div>
               <div className="contact__container__form__row">
                 <ContactInput placeholder="first name" type="text" />
