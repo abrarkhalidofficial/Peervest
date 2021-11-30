@@ -283,9 +283,8 @@ export default function HomeScreen() {
             </Link>
           </div>
         </div>
-
-        <div className="milestone__wrapper">
-          <div className="milestone__container">
+        <div className="milestone__wrapper" style={{ marginBottom: 0 }}>
+          <div className="milestone__container" style={{ marginBottom: 0 }}>
             <div className="milestone__container__heading">Milestones</div>
             <div className="milestone__container__content">
               <div className="milestone__container__content__card ">
@@ -429,35 +428,8 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="partners__container">
-          <img
-            src={partnerImg}
-            alt="partnerImg"
-            className="partners__container__left"
-          />
-
-          <div className="partners__container__right">
-            <div className="partners__container__right__heading">
-              Our Partner
-            </div>
-            <div className="partners__container__right__info">
-              My vision is to imtroduce crowdfunding as a safe and viable
-              fundeaising option for Pakistan's start-ups. Having closely worked
-              with financially constrained startups and the investor fraternity,
-              I found the equation off balanced with a large influx of needy
-              startups and only a handful of angels or VC's that could put in
-              their money. My background in accounting and finance from IBA and
-              the mentorship i recieved there gave me a sound understanding of
-              the investment and funding culture in Pakistan's start-up
-              ecosystem. PeerVest Global is the outcome of the thought process
-              that started at IBA, and is today a functioning platform, always
-              evolving. We're here to hand hold all tech startups and investors
-              in their journey to succeed.
-            </div>
-          </div>
-        </div>
         <div className="container">
-          <div className="container__how__work">
+          <div className="container__how__work" style={{ marginTop: 0 }}>
             <div className="container__our__team__heading">
               How does Peervest work?
             </div>
@@ -1699,6 +1671,7 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="container__our__team">
             <div className="container__our__team__heading">Our Clients</div>
@@ -1709,6 +1682,31 @@ export default function HomeScreen() {
               <img src={client4} alt="client__img" className="client__img" />
               <img src={client5} alt="client__img" className="client__img" />
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="partners__container" style={{ marginBottom: 100 }}>
+        <img
+          src={partnerImg}
+          alt="partnerImg"
+          className="partners__container__left"
+        />
+
+        <div className="partners__container__right">
+          <div className="partners__container__right__heading">Our Partner</div>
+          <div className="partners__container__right__info">
+            My vision is to imtroduce crowdfunding as a safe and viable
+            fundeaising option for Pakistan's start-ups. Having closely worked
+            with financially constrained startups and the investor fraternity, I
+            found the equation off balanced with a large influx of needy
+            startups and only a handful of angels or VC's that could put in
+            their money. My background in accounting and finance from IBA and
+            the mentorship i recieved there gave me a sound understanding of the
+            investment and funding culture in Pakistan's start-up ecosystem.
+            PeerVest Global is the outcome of the thought process that started
+            at IBA, and is today a functioning platform, always evolving. We're
+            here to hand hold all tech startups and investors in their journey
+            to succeed.
           </div>
         </div>
       </div>

@@ -118,26 +118,32 @@ export default function InvestorScreen() {
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
-              <div className="homepage__main__container__jumbotron__wrapper__content__sub__heading">
-                Pakistan’s First Ever
+              <div
+                className="homepage__main__container__jumbotron__wrapper__content__heading"
+                style={{
+                  maxWidth: "100%",
+                  textAlign: "center",
+                  marginBottom: 10,
+                }}
+              >
+                <span>Investor Registration Form</span>
               </div>
-              <div className="homepage__main__container__jumbotron__wrapper__content__heading">
-                Fundraising Services for
-                <br />
-                <span>Emerging Startups</span>
+              <div
+                className="homepage__main__container__jumbotron__wrapper__content__sub__heading"
+                style={{
+                  maxWidth: "100%",
+                  textAlign: "center",
+                  fontSize: 16,
+                }}
+              >
+                Join the Peervest Investor circle to start funding
+                investor-ready startups of your preference
               </div>
             </div>
           </div>
         </div>
         <div className="container">
           <div className="start__up__container">
-            <div className="start__up__container__heading">
-              Investor Registeration Form
-            </div>
-            <div className="start__up__container__info">
-              Connect startups with potential investors and secure initial
-              meetings to pitch the venture and raise capital.
-            </div>
             <form action="" className="start__up__container__form">
               <InputField
                 placeholder="Your Answer"

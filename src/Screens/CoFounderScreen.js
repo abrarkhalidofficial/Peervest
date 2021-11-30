@@ -43,7 +43,7 @@ export default function CoFounderScreen() {
         <div className="container">
           <div className="start__up__container">
             <div className="start__up__container__heading">
-              Co-Founder Registeration Form
+              Co-Founder Registration Form
             </div>
             <div className="start__up__container__info">
               Connect startups with potential investors and secure initial
