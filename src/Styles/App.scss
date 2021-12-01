@@ -1531,8 +1531,11 @@ input:-webkit-autofill:active {
   .milestone__container__content__card {
     width: 30%;
   }
-  .milestone__container__content__card {
-    width: 23%;
+  .investors__container__content__card {
+    width: 30%;
+  }
+  .startups__container__content__card {
+    width: 30%;
   }
   .container__our__team__wrapper {
     padding: 2em 6em;
@@ -1953,6 +1956,14 @@ input:-webkit-autofill:active {
     flex-direction: column;
   }
   .milestone__container__content__card {
+    width: 90%;
+    margin-top: 1em;
+  }
+  .investors__container__content__card {
+    width: 90%;
+    margin-top: 1em;
+  }
+  .startups__container__content__card {
     width: 90%;
     margin-top: 1em;
   }
