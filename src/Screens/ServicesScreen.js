@@ -51,19 +51,10 @@ export default function ServicesScreen() {
             style={{ backgroundColor: "#ffffff" }}
           >
             <div className="milestone__container">
-              <div className="milestone__container__heading">Milestones</div>
+              <div className="milestone__container__heading">Startups</div>
               <div className="milestone__container__content">
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    56
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Arranged
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Meetings
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="startups__container__content__card">
+                  <div className="startups__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="248.75"
@@ -85,18 +76,12 @@ export default function ServicesScreen() {
                       </g>
                     </svg>
                   </div>
+                  <div className="startups__container__content__card__heading">
+                    Due Diligence
+                  </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    56
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Arranged
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Meetings
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="startups__container__content__card">
+                  <div className="startups__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="248.75"
@@ -118,22 +103,16 @@ export default function ServicesScreen() {
                       </g>
                     </svg>
                   </div>
+                  <div className="startups__container__content__card__heading">
+                    Investor Readiness
+                  </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border ">
-                  <div className="milestone__container__content__card__value">
-                    49
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Successful
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Matchmaking
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="startups__container__content__card">
+                  <div className="startups__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="307.516"
-                      height="201.002"
+                      width="248.75"
+                      height="208.031"
                       viewBox="0 0 307.516 201.002"
                     >
                       <g
@@ -155,60 +134,57 @@ export default function ServicesScreen() {
                         </g>
                       </g>
                     </svg>
+                    <div className="startups__container__content__card__heading">
+                      Investor Matching
+                    </div>
                   </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    59
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Co - Founder
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Matched
-                  </div>
-                  <div className="milestone__container__content__card__svg">
-                    <svg
+              </div>
+              <div className="startups__container__content__card__bottom">
+                <div className="startups__container__content__card__svg">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="248.75"
+                    height="208.031"
+                    viewBox="0 0 307.516 201.002"
+                  >
+                    <g
                       id="Layer_2"
                       data-name="Layer 2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="255.85"
-                      height="254.33"
-                      viewBox="0 0 255.85 254.33"
+                      transform="translate(-0.017 0.002)"
                     >
                       <g id="Layer_1" data-name="Layer 1">
                         <path
-                          id="Path_41"
-                          data-name="Path 41"
-                          d="M102.36,178.2v44.19c0,13.23,8.12,21.31,21.36,21.31h100.2c12.88,0,21.08-8.17,21.08-21V117.93c0-12.54-8.1-20.7-20.69-20.72H123.53c-13.12,0-21.13,8.06-21.16,21.18v28.47H92a4.07,4.07,0,0,1-.29-1.07c.05-10.28-.23-20.57.26-30.82.72-15,14.27-28.13,29.31-28.22q52.53-.33,105.05,0c15.51.11,29.26,14.12,29.35,29.79q.34,53.81,0,107.62c-.1,16.63-14,29.89-31.54,30q-50.39.34-100.77,0c-15.85-.09-28-10.22-31.12-25.39a34.321,34.321,0,0,1-.57-6.8c0-13.61,0-27.22-.08-40.83,0-2.35.65-3.23,3-3S99.55,178.2,102.36,178.2Z"
-                        />
-                        <path
                           id="Path_42"
                           data-name="Path 42"
-                          d="M163.92,76.2H153.44V32.17c0-13.44-8.05-21.45-21.48-21.45H32c-13.09,0-21.21,8.09-21.21,21.12V136.62c0,12.23,8,20.51,20.28,20.53q51,.1,101.92,0c12.19,0,20.33-8.25,20.41-20.47.06-8.85,0-17.7,0-26.55V106.8c3.31,0,6.24-.08,9.16.07a2.14,2.14,0,0,1,1.45,1.51c-.18,11.68.59,23.51-1,35-2,14.1-15.46,24.3-29.72,24.33q-51.24.09-102.49,0A31.16,31.16,0,0,1,.06,136.89Q-.06,84.23.06,31.55C.11,13.7,13.75.26,32.3.15q50.1-.3,100.21,0C150.38.27,163.6,13.26,164,31c.36,14.55.09,29.12.08,43.68a12,12,0,0,1-.16,1.52Z"
+                          d="M111.79,187.82c-8.68-1.06-18.63.69-22.67-3.41-7.23-7.33-16.33-14.77-20.63-23-5.43-10.37-5.28-24.31-6.71-36.77-.37-3.2,4.11-8.29,7.63-10.35,9.24-5.42,19.08-9.86,28.91-14.19,2.12-.94,5.18.24,7.8.44-1.49,2.42-2.42,5.88-4.59,7.09-8.24,4.58-16.88,8.44-25.38,12.56-4.84,2.34-8.62,5.54-5.75,11.39,2.79,5.67,7.52,5.19,12.51,2.77,15.23-7.4,30.41-14.92,45.85-21.86,2.82-1.27,6.77,0,10.2.09-2.14,2.42-3.81,5.75-6.48,7.1-16.86,8.5-33.95,16.54-50.94,24.78-4.89,2.37-10,5.21-7,11.74,3.19,7,8.72,5,14.06,2.36,19-9.26,38-18.59,57.21-27.5,2.55-1.18,6.18,0,9.3.06-1.89,2.48-3.26,6-5.77,7.29-15.36,7.84-31,15-46.47,22.78-5.67,2.85-15.4,4.43-11.17,13.74s11.64,3.24,17.52.48c13.86-6.48,27.47-13.5,41.46-19.69,4.43-2,9.74-2,14.64-2.87,1,8.73-7.22,7.93-11.6,10.47-9,5.2-18.91,8.82-27.82,14.14-2.67,1.59-3.29,6.63-4.85,10.08,3.86,1.17,8.8,4.49,11.41,3.17,33.37-16.83,66.71-33.8,99.36-52,10-5.59,22.77-13.63,25.39-23,2.42-8.7-6.57-20.92-11.36-31.21-8.66-18.59-17.73-37-27.07-55.26-3.07-6-2.36-9.34,3.9-12.19,10.07-4.58,20-9.57,29.76-14.72C257.85-.51,261.22.06,264.06,6q20.79,43.11,42.12,86c2.79,5.58,1.17,8.65-4,10.59-23.26,8.74-41.21,25.26-61,39.55-22,15.9-47,27.62-70.94,40.77-9.4,5.17-19.36,9.31-29.08,13.88C124.8,204.41,117.9,201.84,111.79,187.82ZM298,94.9,256.4,10.08,226.35,25c14.24,28.89,27.84,56.47,41.65,84.5Z"
+                        />
+                        <path
+                          id="Path_43"
+                          data-name="Path 43"
+                          d="M200.86,45.47c-25.45-8.58-50.3-17.23-75.38-25.15-4.25-1.35-9.55,0-14.25.84C101.3,22.85,91.45,25,78.79,27.47c-2.94,8.32-7.17,20.15-11.27,32-5.95,17.22-12.08,34.39-17.59,51.76-2.34,7.39-5.79,9-12.93,6.16-10.28-4.06-20.87-7.35-31.39-10.77C.52,105-1,101.89.66,97Q16.45,50.78,32.27,4.6C34.15-.9,37.85-.6,42.43,1.05,55.59,5.78,68.62,11.18,82.16,14.49c7.34,1.8,15.6,0,23.44-.37,8.53-.37,17.72-3.2,25.46-1,24.36,7,48.12,16.1,72.24,24,6.45,2.11,7.85,5.73,6.4,11.77-3.36,14-13.9,20.79-27.76,17-10.92-3-21.63-6.77-32.86-10.33-7.44,15.47-17.34,28-34.82,30.38-8.13,1.1-16.75-.27-25-1.57-2.47-.39-4.39-4.28-6.56-6.57,2.85-.53,5.7-1.45,8.56-1.51,9-.19,18.28,1.5,26.81-.43,11.14-2.47,17.93-11.66,21.8-22.08C142.75,46,146.79,45,154,47.85c9.37,3.7,19,6.74,28.71,9.51C193,60.32,197.51,57.46,200.86,45.47ZM41.28,109.75c10.4-30.4,20.35-59.46,30.53-89.22l-32-11.15L9.31,98.64Z"
                         />
                       </g>
-                    </svg>
-                  </div>
+                    </g>
+                  </svg>
+                </div>
+                <div className="startups__container__content__card__heading">
+                  When a startup successfully onboards our platform, we conduct
+                  a need-analysis on its readiness by evaluating its pitch deck,
+                  financials, and other business documents. If we find the
+                  startup lacking in any of those areas, we enter it into our
+                  pipeline of investor readiness services, which include the
+                  following:
                 </div>
               </div>
             </div>
           </div>
           <div className="milestone__wrapper">
             <div className="milestone__container">
-              <div className="milestone__container__heading">Milestones</div>
+              <div className="milestone__container__heading">Investors</div>
               <div className="milestone__container__content">
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    56
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Arranged
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Meetings
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="investors__container__content__card">
+                  <div className="investors__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="248.75"
@@ -230,18 +206,12 @@ export default function ServicesScreen() {
                       </g>
                     </svg>
                   </div>
+                  <div className="investors__container__content__card__heading">
+                    Start-up categories to match your preferences
+                  </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    56
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Arranged
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Meetings
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="investors__container__content__card">
+                  <div className="investors__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="248.75"
@@ -263,22 +233,16 @@ export default function ServicesScreen() {
                       </g>
                     </svg>
                   </div>
+                  <div className="investors__container__content__card__heading">
+                    Basic due diligence for risk mitigation
+                  </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border ">
-                  <div className="milestone__container__content__card__value">
-                    49
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Successful
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Matchmaking
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="investors__container__content__card">
+                  <div className="investors__container__content__card__svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width="307.516"
-                      height="201.002"
+                      width="248.75"
+                      height="208.031"
                       viewBox="0 0 307.516 201.002"
                     >
                       <g
@@ -301,39 +265,41 @@ export default function ServicesScreen() {
                       </g>
                     </svg>
                   </div>
+                  <div className="investors__container__content__card__heading">
+                    Mile-stone based funds dispersion
+                  </div>
                 </div>
-                <div className="milestone__container__content__card milestone__container__content__card__border">
-                  <div className="milestone__container__content__card__value">
-                    59
-                  </div>
-                  <div className="milestone__container__content__card__type">
-                    Co - Founder
-                  </div>
-                  <div className="milestone__container__content__card__heading">
-                    Matched
-                  </div>
-                  <div className="milestone__container__content__card__svg">
+                <div className="investors__container__content__card">
+                  <div className="investors__container__content__card__svg">
                     <svg
-                      id="Layer_2"
-                      data-name="Layer 2"
                       xmlns="http://www.w3.org/2000/svg"
-                      width="255.85"
-                      height="254.33"
-                      viewBox="0 0 255.85 254.33"
+                      width="248.75"
+                      height="208.031"
+                      viewBox="0 0 307.516 201.002"
                     >
-                      <g id="Layer_1" data-name="Layer 1">
-                        <path
-                          id="Path_41"
-                          data-name="Path 41"
-                          d="M102.36,178.2v44.19c0,13.23,8.12,21.31,21.36,21.31h100.2c12.88,0,21.08-8.17,21.08-21V117.93c0-12.54-8.1-20.7-20.69-20.72H123.53c-13.12,0-21.13,8.06-21.16,21.18v28.47H92a4.07,4.07,0,0,1-.29-1.07c.05-10.28-.23-20.57.26-30.82.72-15,14.27-28.13,29.31-28.22q52.53-.33,105.05,0c15.51.11,29.26,14.12,29.35,29.79q.34,53.81,0,107.62c-.1,16.63-14,29.89-31.54,30q-50.39.34-100.77,0c-15.85-.09-28-10.22-31.12-25.39a34.321,34.321,0,0,1-.57-6.8c0-13.61,0-27.22-.08-40.83,0-2.35.65-3.23,3-3S99.55,178.2,102.36,178.2Z"
-                        />
-                        <path
-                          id="Path_42"
-                          data-name="Path 42"
-                          d="M163.92,76.2H153.44V32.17c0-13.44-8.05-21.45-21.48-21.45H32c-13.09,0-21.21,8.09-21.21,21.12V136.62c0,12.23,8,20.51,20.28,20.53q51,.1,101.92,0c12.19,0,20.33-8.25,20.41-20.47.06-8.85,0-17.7,0-26.55V106.8c3.31,0,6.24-.08,9.16.07a2.14,2.14,0,0,1,1.45,1.51c-.18,11.68.59,23.51-1,35-2,14.1-15.46,24.3-29.72,24.33q-51.24.09-102.49,0A31.16,31.16,0,0,1,.06,136.89Q-.06,84.23.06,31.55C.11,13.7,13.75.26,32.3.15q50.1-.3,100.21,0C150.38.27,163.6,13.26,164,31c.36,14.55.09,29.12.08,43.68a12,12,0,0,1-.16,1.52Z"
-                        />
+                      <g
+                        id="Layer_2"
+                        data-name="Layer 2"
+                        transform="translate(-0.017 0.002)"
+                      >
+                        <g id="Layer_1" data-name="Layer 1">
+                          <path
+                            id="Path_42"
+                            data-name="Path 42"
+                            d="M111.79,187.82c-8.68-1.06-18.63.69-22.67-3.41-7.23-7.33-16.33-14.77-20.63-23-5.43-10.37-5.28-24.31-6.71-36.77-.37-3.2,4.11-8.29,7.63-10.35,9.24-5.42,19.08-9.86,28.91-14.19,2.12-.94,5.18.24,7.8.44-1.49,2.42-2.42,5.88-4.59,7.09-8.24,4.58-16.88,8.44-25.38,12.56-4.84,2.34-8.62,5.54-5.75,11.39,2.79,5.67,7.52,5.19,12.51,2.77,15.23-7.4,30.41-14.92,45.85-21.86,2.82-1.27,6.77,0,10.2.09-2.14,2.42-3.81,5.75-6.48,7.1-16.86,8.5-33.95,16.54-50.94,24.78-4.89,2.37-10,5.21-7,11.74,3.19,7,8.72,5,14.06,2.36,19-9.26,38-18.59,57.21-27.5,2.55-1.18,6.18,0,9.3.06-1.89,2.48-3.26,6-5.77,7.29-15.36,7.84-31,15-46.47,22.78-5.67,2.85-15.4,4.43-11.17,13.74s11.64,3.24,17.52.48c13.86-6.48,27.47-13.5,41.46-19.69,4.43-2,9.74-2,14.64-2.87,1,8.73-7.22,7.93-11.6,10.47-9,5.2-18.91,8.82-27.82,14.14-2.67,1.59-3.29,6.63-4.85,10.08,3.86,1.17,8.8,4.49,11.41,3.17,33.37-16.83,66.71-33.8,99.36-52,10-5.59,22.77-13.63,25.39-23,2.42-8.7-6.57-20.92-11.36-31.21-8.66-18.59-17.73-37-27.07-55.26-3.07-6-2.36-9.34,3.9-12.19,10.07-4.58,20-9.57,29.76-14.72C257.85-.51,261.22.06,264.06,6q20.79,43.11,42.12,86c2.79,5.58,1.17,8.65-4,10.59-23.26,8.74-41.21,25.26-61,39.55-22,15.9-47,27.62-70.94,40.77-9.4,5.17-19.36,9.31-29.08,13.88C124.8,204.41,117.9,201.84,111.79,187.82ZM298,94.9,256.4,10.08,226.35,25c14.24,28.89,27.84,56.47,41.65,84.5Z"
+                          />
+                          <path
+                            id="Path_43"
+                            data-name="Path 43"
+                            d="M200.86,45.47c-25.45-8.58-50.3-17.23-75.38-25.15-4.25-1.35-9.55,0-14.25.84C101.3,22.85,91.45,25,78.79,27.47c-2.94,8.32-7.17,20.15-11.27,32-5.95,17.22-12.08,34.39-17.59,51.76-2.34,7.39-5.79,9-12.93,6.16-10.28-4.06-20.87-7.35-31.39-10.77C.52,105-1,101.89.66,97Q16.45,50.78,32.27,4.6C34.15-.9,37.85-.6,42.43,1.05,55.59,5.78,68.62,11.18,82.16,14.49c7.34,1.8,15.6,0,23.44-.37,8.53-.37,17.72-3.2,25.46-1,24.36,7,48.12,16.1,72.24,24,6.45,2.11,7.85,5.73,6.4,11.77-3.36,14-13.9,20.79-27.76,17-10.92-3-21.63-6.77-32.86-10.33-7.44,15.47-17.34,28-34.82,30.38-8.13,1.1-16.75-.27-25-1.57-2.47-.39-4.39-4.28-6.56-6.57,2.85-.53,5.7-1.45,8.56-1.51,9-.19,18.28,1.5,26.81-.43,11.14-2.47,17.93-11.66,21.8-22.08C142.75,46,146.79,45,154,47.85c9.37,3.7,19,6.74,28.71,9.51C193,60.32,197.51,57.46,200.86,45.47ZM41.28,109.75c10.4-30.4,20.35-59.46,30.53-89.22l-32-11.15L9.31,98.64Z"
+                          />
+                        </g>
                       </g>
                     </svg>
+                    <div className="investors__container__content__card__heading">
+                      Notifications for start-ups invested in and new relevant
+                      startups
+                    </div>
                   </div>
                 </div>
               </div>
