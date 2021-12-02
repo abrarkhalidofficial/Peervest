@@ -1528,9 +1528,6 @@ input:-webkit-autofill:active {
   .container__why__choose__us__wrapper__content {
     width: 90%;
   }
-  .milestone__container__content__card {
-    width: 30%;
-  }
   .investors__container__content__card {
     width: 30%;
   }
@@ -1710,6 +1707,9 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 900px) {
+  .container__our__team__heading {
+    margin-top: 2em;
+  }
   .partners__container {
     flex-direction: column;
   }
