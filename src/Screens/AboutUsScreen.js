@@ -719,12 +719,6 @@ export default function AboutUsScreen() {
                     to="/contact"
                     className="about__us__content__right__buttons__left__cta"
                   >
-                    Sign Up
-                  </Link>
-                  <Link
-                    to="/contact"
-                    className="about__us__content__right__buttons__left__cta"
-                  >
                     Contact us
                   </Link>
                 </div>
