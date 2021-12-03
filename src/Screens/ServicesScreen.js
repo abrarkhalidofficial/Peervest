@@ -17,7 +17,7 @@ export default function ServicesScreen() {
             src={co__founder__background}
             alt="co__founder__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -250 }}
+            style={{ height: "fit-content", marginTop: -500 }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
@@ -48,7 +48,7 @@ export default function ServicesScreen() {
         <div className="container">
           <div
             className="milestone__wrapper"
-            style={{ backgroundColor: "#ffffff" }}
+            style={{ backgroundColor: "#ffffff", height: 400 }}
           >
             <div className="milestone__container">
               <div className="milestone__container__heading">Startups</div>

@@ -114,7 +114,7 @@ export default function InvestorScreen() {
             src={co__founder__background}
             alt="co__founder__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -250 }}
+            style={{ height: "fit-content", marginTop: -500 }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">

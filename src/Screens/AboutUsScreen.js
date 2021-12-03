@@ -8,6 +8,7 @@ import container__our__team__wrapper__entry__img__2 from "../Assets/container__o
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
 import aboutUsSvg from "../Assets/aboutUsSvg.svg";
 import ourVisionSvg from "../Assets/ourVisionSvg.svg";
+import contact__background from "../Assets/contact__background.jpg";
 import { Link } from "react-router-dom";
 
 export default function AboutUsScreen() {
@@ -15,29 +16,32 @@ export default function AboutUsScreen() {
     <>
       <Header />
       <div className="homepage__main__container">
-        <div className="homepage__main__container__jumbotron">
+        <div
+          className="homepage__main__container__jumbotron"
+          style={{ maxHeight: 500, overflow: "hidden" }}
+        >
           <img
-            src={main__background}
-            alt="main__background"
+            src={contact__background}
+            alt="contact__background"
             className="homepage__main__container__jumbotron__img"
+            style={{ height: "fit-content", marginTop: -1050 }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
-              <div className="homepage__main__container__jumbotron__wrapper__content__sub__heading">
-                Pakistan’s First Ever
-              </div>
-              <div className="homepage__main__container__jumbotron__wrapper__content__heading">
-                Fundraising Services for
-                <br />
-                <span>Emerging Startups</span>
-              </div>
-              <div className="homepage__main__container__jumbotron__wrapper__content__info">
-                For startups looking for pre-seed, seed, and growth stage
-                funding to expedite their operations.
+              <div
+                className="homepage__main__container__jumbotron__wrapper__content__heading"
+                style={{
+                  maxWidth: "100%",
+                  textAlign: "center",
+                  marginBottom: 10,
+                }}
+              >
+                <span>About Us</span>
               </div>
             </div>
           </div>
         </div>
+
         <div className="container">
           <div className="container__our__team">
             <div className="container__our__team__heading">Our Team</div>

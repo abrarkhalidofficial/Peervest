@@ -320,16 +320,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .startups__container__content__card__bottom {
   width: 100%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   height: fit-content;
   padding: 2em;
   border-radius: 20px;
   display: flex;
+  z-index: 50;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: none;
+}
+.milestone__container__content:hover
+  ~ .startups__container__content__card__bottom {
+  display: flex;
 }
 .milestone__container__content__card__svg {
   position: absolute;

@@ -107,7 +107,7 @@ export default function StartUpScreen() {
             src={start__up__background}
             alt="start__up__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -500 }}
+            style={{ height: "fit-content", marginTop: -800 }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">

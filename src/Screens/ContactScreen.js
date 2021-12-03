@@ -17,26 +17,25 @@ export default function ContactScreen() {
             src={contact__background}
             alt="contact__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -450 }}
+            style={{ height: "fit-content", marginTop: -950 }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
-              <div className="homepage__main__container__jumbotron__wrapper__content__sub__heading">
-                Pakistan’s First Ever
-              </div>
-              <div className="homepage__main__container__jumbotron__wrapper__content__heading">
-                Fundraising Services for
-                <br />
-                <span>Emerging Startups</span>
+              <div
+                className="homepage__main__container__jumbotron__wrapper__content__heading"
+                style={{
+                  maxWidth: "100%",
+                  textAlign: "center",
+                  marginBottom: 10,
+                }}
+              >
+                <span>Contact Us</span>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="start__up__container">
-          <div className="start__up__container__heading">Contact Us</div>
-        </div>
         <div className="contact__container">
           <div className="contact__container__content">
             <iframe
