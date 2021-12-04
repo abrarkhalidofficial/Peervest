@@ -53,7 +53,7 @@ export default function Footer() {
                 />
               </svg>
 
-              <a href="">111-111-111-111</a>
+              <a href="">+92 307 9303104</a>
             </div>
             <div className="footer__container__content__link">
               <svg
@@ -71,7 +71,7 @@ export default function Footer() {
                 />
               </svg>
 
-              <a href="">abc123@gmail.com</a>
+              <a href="">fizzanadeemsiddiqui@peervestglobal.com</a>
             </div>
             <div className="footer__container__content__link">
               <svg
@@ -89,7 +89,10 @@ export default function Footer() {
                 />
               </svg>
 
-              <a href="">Street no.2 ravi Mohalla Lahore Pakistan</a>
+              <a href="">
+                Address: NICL, SBASSE basement, LUMS, Sector U DHA Phase 3,
+                Lahore, Punjab 54792
+              </a>
             </div>
           </div>
           <div className="footer__container__content__quick__links">
@@ -155,7 +158,7 @@ export default function Footer() {
       <div className="footer__copywrite__section">
         <span> Developed By</span>{" "}
         <a href="https://www.dsmeglobal.com/" target="_blank">
-          DSME Global Links
+          DSME Global Links (Pvt) Ltd
         </a>
       </div>
     </>

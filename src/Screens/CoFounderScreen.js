@@ -19,13 +19,13 @@ export default function CoFounderScreen() {
       <div className="homepage__main__container">
         <div
           className="homepage__main__container__jumbotron"
-          style={{ maxHeight: 500, overflow: "hidden" }}
+          style={{ height: 500, overflow: "hidden" }}
         >
           <img
             src={co__founder__background}
             alt="co__founder__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -250 }}
+            style={{ height: "100%" }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
@@ -42,13 +42,6 @@ export default function CoFounderScreen() {
         </div>
         <div className="container">
           <div className="start__up__container">
-            <div className="start__up__container__heading">
-              Co-Founder Registration Form
-            </div>
-            <div className="start__up__container__info">
-              Connect startups with potential investors and secure initial
-              meetings to pitch the venture and raise capital.
-            </div>
             <form action="" className="start__up__container__form">
               <InputField
                 placeholder="Your Answer"

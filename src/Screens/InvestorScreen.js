@@ -108,13 +108,12 @@ export default function InvestorScreen() {
       <div className="homepage__main__container">
         <div
           className="homepage__main__container__jumbotron"
-          style={{ maxHeight: 500, overflow: "hidden" }}
+          style={{ overflow: "hidden", height: 500 }}
         >
           <img
             src={co__founder__background}
             alt="co__founder__background"
-            className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -500 }}
+            style={{ width: "100%", height: "100%" }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
@@ -126,7 +125,7 @@ export default function InvestorScreen() {
                   marginBottom: 10,
                 }}
               >
-                <span>Investor Registration Form</span>
+                <span>Register as Investor</span>
               </div>
               <div
                 className="homepage__main__container__jumbotron__wrapper__content__sub__heading"

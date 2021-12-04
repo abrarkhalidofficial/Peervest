@@ -101,13 +101,12 @@ export default function StartUpScreen() {
       <div className="homepage__main__container">
         <div
           className="homepage__main__container__jumbotron"
-          style={{ maxHeight: 500, overflow: "hidden" }}
+          style={{ overflow: "hidden", height: 500 }}
         >
           <img
             src={start__up__background}
             alt="start__up__background"
-            className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -800 }}
+            style={{ width: "100%", height: "100%" }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
@@ -119,7 +118,7 @@ export default function StartUpScreen() {
                   marginBottom: 10,
                 }}
               >
-                <span>Start-up Registration Form</span>
+                <span>Register as Start-up</span>
               </div>
               <div
                 className="homepage__main__container__jumbotron__wrapper__content__sub__heading"
@@ -229,12 +228,7 @@ export default function StartUpScreen() {
                 label="Has your start-up raised funding before?"
                 required={true}
               />
-              <InputFile
-                placeholder="12234234234234"
-                label="label"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, culpa!"
-                required={true}
-              />
+              <InputFile label="Startup Image" required={true} />
               <div className="start__up__container__form__row">
                 <button
                   type="submit"

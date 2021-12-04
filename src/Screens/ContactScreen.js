@@ -11,13 +11,13 @@ export default function ContactScreen() {
       <div className="homepage__main__container">
         <div
           className="homepage__main__container__jumbotron"
-          style={{ maxHeight: 500, overflow: "hidden" }}
+          style={{ height: 500, overflow: "hidden" }}
         >
           <img
             src={contact__background}
             alt="contact__background"
             className="homepage__main__container__jumbotron__img"
-            style={{ height: "fit-content", marginTop: -950 }}
+            style={{ height: "100%" }}
           />
           <div className="homepage__main__container__jumbotron__wrapper">
             <div className="homepage__main__container__jumbotron__wrapper__content">
@@ -39,7 +39,7 @@ export default function ContactScreen() {
         <div className="contact__container">
           <div className="contact__container__content">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.5173288665815!2d71.50270921519028!3d34.00492952766938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d917aa3edd1ed3%3A0x974d74f7f91268e9!2sJ7%20Group%20Peshawar!5e0!3m2!1sen!2s!4v1635106554642!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13611.628343502281!2d74.4115359!3d31.471742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe26730359966c739!2sNational%20Incubation%20Center%20Lahore!5e0!3m2!1sen!2s!4v1638644544287!5m2!1sen!2s"
               allowfullscreen=""
               loading="lazy"
             ></iframe>
@@ -48,8 +48,8 @@ export default function ContactScreen() {
                 <span>Get in</span> Touch
               </div>
               <div className="contact__container__form__info">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the.
+                We welcome you to contact us if you have any question or
+                generaly want to know something
               </div>
               <div className="contact__container__form__row">
                 <ContactInput placeholder="first name" type="text" />
@@ -57,11 +57,7 @@ export default function ContactScreen() {
               </div>
               <div className="contact__container__form__row">
                 <ContactInput placeholder="email" type="email" />
-                <ContactInput placeholder="DOB" type="text" />
-              </div>
-              <div className="contact__container__form__row">
                 <ContactInput placeholder="phone" type="tel" />
-                <ContactInput placeholder="gender" variant="select" />
               </div>
               <div className="contact__container__form__row">
                 <ContactInput placeholder="Message" variant="textarea" />
@@ -71,40 +67,47 @@ export default function ContactScreen() {
                 <span>Contact</span> Us
               </div>
               <div className="contact__container__form__content">
+                <div
+                  className="contact__container__form__content__col"
+                  style={{ marginRight: 20 }}
+                >
+                  <div className="contact__container__form__content__col__heading heading">
+                    Email
+                  </div>
+                  <div className="contact__container__form__content__col__value">
+                    fizzanadeemsiddiqui@peervestglobal.com
+                  </div>
+                  <div className="contact__container__form__content__col__value">
+                    tajulleahmed@peervestglobal.com
+                  </div>
+                </div>
                 <div className="contact__container__form__content__col">
                   <div className="contact__container__form__content__col__heading heading">
                     Phone
                   </div>
                   <div className="contact__container__form__content__col__value">
-                    335 353 343
-                  </div>
-                  <div className="contact__container__form__content__col__value">
-                    335 353 343
+                    +92 307 9303104
                   </div>
                 </div>
-                <div className="contact__container__form__content__col">
-                  <div className="contact__container__form__content__col__heading heading">
-                    Email
-                  </div>
-                  <div className="contact__container__form__content__col__value">
-                    hello@J7.com
-                  </div>
-                  <div className="contact__container__form__content__col__value">
-                    hello@J7Group.com
-                  </div>
-                </div>
-                <div className="contact__container__form__content__col">
+                <div
+                  className="contact__container__form__content__col"
+                  style={{ maxWidth: 140 }}
+                >
                   <div className="contact__container__form__content__col__heading heading">
                     Socials
                   </div>
-                  <div className="contact__container__form__content__col__links">
+                  <div
+                    className="contact__container__form__content__col__links"
+                    style={{ justifyContent: "flex-start" }}
+                  >
                     <a
-                      href="#"
+                      href="https://www.facebook.com/search/top/?q=peervest"
                       className="contact__container__form__content__col__link"
+                      style={{ marginRight: 10 }}
                     >
                       <Facebook size={18} color="currentColor" />
                     </a>
-                    <a
+                    {/* <a
                       href="#"
                       className="contact__container__form__content__col__link"
                     >
@@ -115,9 +118,9 @@ export default function ContactScreen() {
                       className="contact__container__form__content__col__link"
                     >
                       <Twitter size={18} color="currentColor" />
-                    </a>
+                    </a> */}
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/atpeervest"
                       className="contact__container__form__content__col__link"
                     >
                       <Linkedin size={18} color="currentColor" />

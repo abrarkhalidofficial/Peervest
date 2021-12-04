@@ -99,7 +99,6 @@ export default function FaqScreen() {
               Create a concise and compelling investment pitch deck that
               contains information required by investors.
             </div>
-
             <div className="container__selection">
               <div className="container__selection__buttons">
                 <div className="container__selection__button">

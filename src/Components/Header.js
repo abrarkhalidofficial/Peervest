@@ -10,6 +10,8 @@ function Btn() {
       className="nav__header__btn"
       onClick={() => {
         history.push("/contact");
+
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }}
     >
       Contact
@@ -49,7 +51,13 @@ export default class Header extends Component {
         className={this.state.isScrolling ? "header header__active" : "header"}
       >
         <div className="header__wrapper">
-          <Link to="/" className="header__logo">
+          <Link
+            to="/"
+            className="header__logo"
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
             <img src={logo} alt="logo" className="header__logo__img" />
           </Link>
           <button
@@ -109,22 +117,52 @@ export default class Header extends Component {
                   : "header__nav"
               }
             >
-              <Link to="/investor" className="nav__header__link">
+              <Link
+                to="/investor"
+                className="nav__header__link"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 Investor
               </Link>
               {/* <Link to="/co-founder" className="nav__header__link">
                 Co-founder
               </Link> */}
-              <Link to="/start-up" className="nav__header__link">
+              <Link
+                to="/start-up"
+                className="nav__header__link"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 Start-up
               </Link>
-              <Link to="/services" className="nav__header__link">
+              <Link
+                to="/services"
+                className="nav__header__link"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 Services
               </Link>
-              <Link to="/about-us" className="nav__header__link">
+              <Link
+                to="/about-us"
+                className="nav__header__link"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 About Us
               </Link>
-              <Link to="/faq" className="nav__header__link">
+              <Link
+                to="/faq"
+                className="nav__header__link"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+              >
                 FAQ
               </Link>
               <Btn />
