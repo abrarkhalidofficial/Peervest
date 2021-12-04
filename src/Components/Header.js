@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, useHistory } from "react-router-dom";
-import logo from "../Assets/logo-light.svg";
+import logo from "../Assets/logo.svg";
 
 function Btn() {
   const history = useHistory();
