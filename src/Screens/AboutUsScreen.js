@@ -47,8 +47,17 @@ export default function AboutUsScreen() {
                   fontSize: 16,
                 }}
               >
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
+                Peervest is a fund sourcing platform to bridge the gap between
+                potential investors and promising start-ups. Peervest also acts
+                as a consultancy to start-ups which do not have enough resources
+                otherwise to achieve investment readiness. Once start-ups are
+                investable; Peervest then help those start-ups connect with
+                Angel Investors, Venture Capital firms and other means of
+                funding opportunities. Peervest provides investors a platform to
+                invest in a business with an intention of earning returns in the
+                long-term. Investors get to decide which ideas are worth
+                funding. If it succeeds, investors make money and if does not,
+                they lose it all.
               </div>
             </div>
           </div>

@@ -208,13 +208,23 @@ export default function ServicesScreen() {
                         />
                       </svg>
                     </div>
-                    <div className="startups__container__content__card__heading">
+                    <div
+                      className="startups__container__content__card__heading"
+                      style={{ textAlign: "justify", fontSize: 15 }}
+                    >
                       When a startup successfully onboards our platform, we
                       conduct a need-analysis on its readiness by evaluating its
                       pitch deck, financials, and other business documents. If
                       we find the startup lacking in any of those areas, we
                       enter it into our pipeline of investor readiness services,
-                      which include the following:
+                      which include the following (as needed):
+                      <ul>
+                        <li>Financial Projections</li>
+                        <li>Refine Pitch Deck </li>
+                        <li>Built start-up story </li>
+                        <li>Prepare Investor Brief </li>
+                        <li>Prepare Summary Slide </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
