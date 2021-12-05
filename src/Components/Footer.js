@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="footer__container__content__quick__links">
             <img
               src={footerLogo}
-              alt=""
+              alt="footerLogo"
               className="footer__container__content__logo"
             />
           </div>

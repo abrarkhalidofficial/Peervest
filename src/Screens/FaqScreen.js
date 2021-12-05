@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../Components/Header";
 import co__founder__background from "../Assets/co__founder__background.jpg";
 import faq1 from "../Assets/faq1.svg";
-import faq2 from "../Assets/faq1.svg";
+import faq2 from "../Assets/faq2.svg";
 
 function FaqEntry() {
   const [isOpen, setIsOpen] = useState(false);
@@ -88,6 +88,7 @@ function FaqEntry() {
 }
 
 export default function FaqScreen() {
+  const [faq, setFaq] = useState(false);
   return (
     <div>
       <Header />
@@ -105,6 +106,9 @@ export default function FaqScreen() {
                   <input
                     type="radio"
                     defaultChecked
+                    onClick={() => {
+                      setFaq(false);
+                    }}
                     name="container__selection__button__input"
                     className="container__selection__button__input"
                   />
@@ -181,6 +185,9 @@ export default function FaqScreen() {
                     type="radio"
                     name="container__selection__button__input"
                     className="container__selection__button__input"
+                    onClick={() => {
+                      setFaq(true);
+                    }}
                   />
                   <div className="container__selection__button__content">
                     <svg
@@ -237,7 +244,7 @@ export default function FaqScreen() {
               </div>
               <div className="container__selection__info">
                 <img
-                  src={faq1}
+                  src={faq ? faq2 : faq1}
                   alt="selection img"
                   className="container__selection__info__left"
                 />

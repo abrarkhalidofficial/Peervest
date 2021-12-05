@@ -854,9 +854,9 @@ body {
   border-bottom-width: 2px;
 }
 .start__up__container__form__input__box__file__btn {
-  width: fit-content;
-  padding: 0.7em 1.2em;
-  border-radius: 50px;
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
   background-color: transparent;
   border: 1px solid $textColor;
   color: $textColor;
@@ -877,6 +877,13 @@ body {
   transition: 300ms ease-in-out;
   background-color: $blue;
   color: $white;
+}
+.start__up__container__form__input__box__file__btn__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 .start__up__container__form__input__box__radio__label {
   font-size: 14px;
