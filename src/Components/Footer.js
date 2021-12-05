@@ -53,7 +53,9 @@ export default function Footer() {
                 />
               </svg>
 
-              <a href="">+92 307 9303104</a>
+              <a href="" style={{ width: "90%" }}>
+                +92 307 9303104
+              </a>
             </div>
             <div className="footer__container__content__link">
               <svg
@@ -71,25 +73,26 @@ export default function Footer() {
                 />
               </svg>
 
-              <a href="">fizzanadeemsiddiqui@peervestglobal.com</a>
+              <a href="" style={{ width: "90%" }}>
+                fizzanadeemsiddiqui@peervestglobal.com
+              </a>
             </div>
             <div className="footer__container__content__link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="20.162"
-                height="28.803"
-                viewBox="0 0 20.162 28.803"
-                fill="currentColor"
+                width="24.421"
+                height="34.887"
+                viewBox="0 0 24.421 34.887"
               >
                 <path
                   id="Icon_material-location-on"
                   data-name="Icon material-location-on"
-                  d="M17.581,3A10.074,10.074,0,0,0,7.5,13.081C7.5,20.642,17.581,31.8,17.581,31.8S27.662,20.642,27.662,13.081A10.074,10.074,0,0,0,17.581,3Zm0,13.681a3.6,3.6,0,1,1,3.6-3.6A3.6,3.6,0,0,1,17.581,16.681Z"
+                  d="M19.71,3A12.2,12.2,0,0,0,7.5,15.21c0,9.158,12.21,22.677,12.21,22.677s12.21-13.519,12.21-22.677A12.2,12.2,0,0,0,19.71,3Zm0,16.571a4.361,4.361,0,1,1,4.361-4.361A4.362,4.362,0,0,1,19.71,19.571Z"
                   transform="translate(-7.5 -3)"
+                  fill="#fbfbfb"
                 />
               </svg>
-
-              <a href="">
+              <a href="" style={{ width: "90%" }}>
                 Address: NICL, SBASSE basement, LUMS, Sector U DHA Phase 3,
                 Lahore, Punjab 54792
               </a>
