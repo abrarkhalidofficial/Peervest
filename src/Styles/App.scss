@@ -750,26 +750,26 @@ body {
   justify-content: space-between;
 }
 .container__why__choose__us__wrapper__content__left {
-  width: 50%;
+  width: 100%;
   height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .container__why__choose__us__wrapper__content__left__heading {
-  font-size: 32px;
+  font-size: 50px;
   color: $white;
   font-weight: bold;
   margin-bottom: 1em;
 }
 .container__why__choose__us__wrapper__content__left__sub__heading {
-  font-size: 16px;
+  font-size: 22px;
   color: $white;
   font-weight: bold;
   margin: 0.5em 0em;
 }
 .container__why__choose__us__wrapper__content__left__heading__info {
-  font-size: 14px;
+  font-size: 18px;
   color: $white;
 }
 .container__why__choose__us__wrapper__content__right {
@@ -1557,6 +1557,7 @@ input:-webkit-autofill:active {
   margin-top: 1em;
   font-size: 16px;
   color: #081b35;
+  text-align: center;
   font-weight: bold;
 }
 @media (max-width: 1440px) {

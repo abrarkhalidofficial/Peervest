@@ -119,7 +119,7 @@ export default function Footer() {
                   fill="#fbfbfb"
                 />
               </svg>
-              <a href="" style={{ width: "90%" }}>
+              <a href="" style={{ width: "60%" }}>
                 NICL, SBASSE basement, LUMS, Sector U DHA Phase 3, Lahore,
                 Punjab 54792
               </a>
