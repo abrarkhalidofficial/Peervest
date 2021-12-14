@@ -217,6 +217,8 @@ body {
   align-items: center;
   background: #f5f5f5;
   text-decoration: none;
+  height: fit-content;
+  min-height: 350px;
   width: 49%;
 }
 .container__startups__card__left {

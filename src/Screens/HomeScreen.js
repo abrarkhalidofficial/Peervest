@@ -199,16 +199,16 @@ export default function HomeScreen() {
                 </svg>
                 <div className="container__startups__card__left__content">
                   <div className="container__startups__card__left__content__sub__heading">
-                    Preparing
+                    Funding for my
                   </div>
                   <div className="container__startups__card__left__content__heading">
-                    Capital
+                    Startup
                   </div>
                 </div>
               </div>
               <div className="container__startups__card__right__heading">
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
+                For Startup to be connected with out pool of investor and secure
+                initial funding for take-off.
               </div>
             </Link>
             <Link
@@ -280,17 +280,18 @@ export default function HomeScreen() {
 
                 <div className="container__startups__card__left__content">
                   <div className="container__startups__card__left__content__sub__heading">
-                    Match
+                    A Startup to
                   </div>
                   <div className="container__startups__card__left__content__heading">
-                    Investor
+                    Invest
                   </div>
                 </div>
               </div>
 
               <div className="container__startups__card__right__heading">
-                Connect startups with potential investors and secure initial
-                meetings to pitch the venture and raise capital.
+                For Investors and Investor minded-individuals to shift through
+                our log of startups in multiple industries and invest in the
+                unicorns of the future.
               </div>
             </Link>
           </div>
