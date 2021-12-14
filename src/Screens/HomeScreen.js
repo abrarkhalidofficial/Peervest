@@ -483,7 +483,10 @@ export default function HomeScreen() {
           </div>
         </div>
         <div className="container">
-          <div className="container__how__work" style={{ marginTop: 0 }}>
+          <div
+            className="container__how__work"
+            style={{ marginTop: 0, padding: "10em 0em" }}
+          >
             <div className="container__our__team__heading">
               How does Peervest work?
             </div>

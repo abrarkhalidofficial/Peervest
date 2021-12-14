@@ -1892,6 +1892,12 @@ input:-webkit-autofill:active {
   }
 }
 @media (max-width: 650px) {
+  .how__peervest__work {
+    flex-direction: column;
+  }
+  .how__peervest__work__card {
+    max-width: 80% !important;
+  }
   .about__us__content__left__img {
     display: none;
   }
