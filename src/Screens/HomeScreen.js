@@ -1,6 +1,5 @@
 import React from "react";
 import main__background from "../Assets/main__background.jpg";
-import founderPic from "../Assets/founderPic.png";
 import Header from "../Components/Header";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
@@ -1281,7 +1280,7 @@ export default function HomeScreen() {
             <div className="container__our__team__wrapper">
               <div className="container__our__team__card">
                 <img
-                  src={founderPic}
+                  src={container__our__team__wrapper__entry__img__1}
                   alt="container__our__team__wrapper__entry__img"
                   className="container__our__team__card__img"
                 />
@@ -1363,80 +1362,6 @@ export default function HomeScreen() {
                       </div>
                       <div className="container__our__team__card__content__social__links">
                         <a href="https://www.linkedin.com/in/fizza-nadeem-siddiqui">
-                          <Linkedin size={18} color="#0a264e" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="container__our__team__card">
-                <img
-                  src={container__our__team__wrapper__entry__img__1}
-                  alt="container__our__team__wrapper__entry__img"
-                  className="container__our__team__card__img"
-                />
-                <div className="container__our__team__card__content__overlay">
-                  <div className="container__our__team__card__content">
-                    <div className="container__our__team__card__content__heading">
-                      Laraib Piracha
-                    </div>
-                    <div className="container__our__team__card__content__info">
-                      (Co-founder)
-                    </div>
-                    <div className="container__our__team__card__content__social__links__container">
-                      <div className="container__our__team__card__content__social__links">
-                        <a href="https://www.facebook.com/laraib.piracha">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="7.285"
-                            height="14.568"
-                            viewBox="0 0 7.285 14.568"
-                          >
-                            <path
-                              id="facebook"
-                              d="M12.142,2.419h1.33V.1A17.174,17.174,0,0,0,11.534,0,3.076,3.076,0,0,0,8.3,3.423v2.04H6.187v2.59H8.3v6.516H10.9V8.053h2.03l.322-2.59H10.9V3.68c0-.748.2-1.261,1.245-1.261Z"
-                              transform="translate(-6.187)"
-                              fill="#0a264e"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                      <div className="container__our__team__card__content__social__links">
-                        <a href="https://www.instagram.com/piracha.laraib/">
-                          <svg
-                            id="instagram_1_"
-                            data-name="instagram (1)"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="14.568"
-                            height="14.568"
-                            viewBox="0 0 14.568 14.568"
-                          >
-                            <path
-                              id="Path_148"
-                              data-name="Path 148"
-                              d="M213.561,212.28a1.28,1.28,0,1,1-1.28-1.28A1.28,1.28,0,0,1,213.561,212.28Zm0,0"
-                              transform="translate(-204.996 -204.996)"
-                              fill="#0a264e"
-                            />
-                            <path
-                              id="Path_149"
-                              data-name="Path 149"
-                              d="M126.032,120h-4.325A1.709,1.709,0,0,0,120,121.707v4.325a1.709,1.709,0,0,0,1.707,1.707h4.325a1.709,1.709,0,0,0,1.707-1.707v-4.325A1.709,1.709,0,0,0,126.032,120Zm-2.163,6A2.134,2.134,0,1,1,126,123.87,2.136,2.136,0,0,1,123.87,126Zm2.447-4.154a.427.427,0,1,1,.427-.427A.427.427,0,0,1,126.317,121.85Zm0,0"
-                              transform="translate(-116.586 -116.586)"
-                              fill="#0a264e"
-                            />
-                            <path
-                              id="Path_150"
-                              data-name="Path 150"
-                              d="M10.727,0H3.841A3.846,3.846,0,0,0,0,3.841v6.886a3.846,3.846,0,0,0,3.841,3.841h6.886a3.846,3.846,0,0,0,3.841-3.841V3.841A3.846,3.846,0,0,0,10.727,0Zm1.28,9.447a2.564,2.564,0,0,1-2.561,2.561H5.122A2.564,2.564,0,0,1,2.561,9.447V5.122A2.564,2.564,0,0,1,5.122,2.561H9.447a2.564,2.564,0,0,1,2.561,2.561Zm0,0"
-                              fill="#0a264e"
-                            />
-                          </svg>
-                        </a>
-                      </div>
-                      <div className="container__our__team__card__content__social__links">
-                        <a href="https://www.linkedin.com/in/laraib-piracha-31819b42">
                           <Linkedin size={18} color="#0a264e" />
                         </a>
                       </div>
