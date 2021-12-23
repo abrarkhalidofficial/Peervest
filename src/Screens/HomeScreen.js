@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 import container__our__team__wrapper__entry__img__1 from "../Assets/container__our__team__wrapper__entry__img__1.png";
 import container__our__team__wrapper__entry__img__2 from "../Assets/container__our__team__wrapper__entry__img__2.png";
 import container__our__team__wrapper__entry__img__3 from "../Assets/container__our__team__wrapper__entry__img__3.png";
-import partnerImg from "../Assets/partnerImg.png";
+import partner from "../Assets/partner.png";
 import client1 from "../Assets/client1.jpg";
 import client2 from "../Assets/client2.jpg";
 import client3 from "../Assets/client3.jpg";
@@ -1611,19 +1611,21 @@ export default function HomeScreen() {
           </div>
         </div>
         <div className="container">
-          <div className="container__our__team">
-            <div className="container__our__team__heading">Our Partners</div>
-            <div
-              className="container__our__client"
-              style={{ justifyContent: "center" }}
-            >
-              <img
-                src={partnerImg}
-                alt="client__img"
-                className="client__img"
-                style={{ width: 300 }}
-              />
+          <div className="container__partner">
+            <div className="container__partner__left">
+              <div className="container__partner__left__heading">
+                Our Partner
+              </div>
+              <div className="container__partner__left__info">
+                Create a concise and compelling investment pitch deck that
+                contains information required by investors.
+              </div>
             </div>
+            <img
+              src={partner}
+              alt="partner"
+              className="container__partner__right"
+            />
           </div>
         </div>
       </div>
