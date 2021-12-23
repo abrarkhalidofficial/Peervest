@@ -1523,7 +1523,7 @@ export default function HomeScreen() {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container" style={{ minHeight: "fit-content" }}>
           <div className="container__our__team">
             <div className="container__our__team__heading">Our Clients</div>
             <div className="container__our__client">
@@ -1546,11 +1546,23 @@ export default function HomeScreen() {
                 contains information required by investors.
               </div>
             </div>
-            <img
-              src={partner}
-              alt="partner"
-              className="container__partner__right"
-            />
+            <div className="container__partner__right">
+              <div className="container__partner__right__overlay">
+                <a
+                  href="http://auclaw.com/"
+                  className="container__partner__right__overlay__link"
+                ></a>
+                <a
+                  href="http://dsmeglobal.com"
+                  className="container__partner__right__overlay__link"
+                ></a>
+              </div>
+              <img
+                src={partner}
+                alt="partner"
+                className="container__partner__right__img"
+              />
+            </div>
           </div>
         </div>
       </div>
